@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- 44种天气的描述信息 -->
+	<string name="icon1">Maaraw</string>
+	<string name="icon2">Karamihan ay Maaraw</string>
+	<string name="icon3">Bahagyang Maaraw</string>
+	<string name="icon4">ntermittent Ulap</string>
+	<string name="icon5">Malabo Sunshine</string>
+	<string name="icon6">Karamihan ay Maulap</string>
+	<string name="icon7">Maulap</string>
+	<string name="icon8">Pagod na pagod</string>
+	<string name="icon9">Hindi kilala</string>
+	<string name="icon10">Hindi kilala</string>
+	<string name="icon11">Hamog</string>
+	<string name="icon12">Pagbuhos</string>
+	<string name="icon13">Karamihan ay Maulap na may Pagbuhos</string>
+	<string name="icon14">Bahagyang Maaraw sa Pagbuhos</string>
+	<string name="icon15">Bagyo</string>
+	<string name="icon16">Karamihan ay Maulap na may Pagbuhos ng Thunder</string>
+	<string name="icon17">Bahagyang Maaraw sa Pagbuhos ng Thunder</string>
+	<string name="icon18">Ulan</string>
+	<string name="icon19">Flurries</string>
+	<string name="icon20">Karamihan ay Maulap na may Flurries</string>
+	<string name="icon21">Bahagyang Maaraw sa Flurries</string>
+	<string name="icon22">Snow</string>
+	<string name="icon23">Karamihan ay Maulap na may Snow</string>
+	<string name="icon24">Yelo</string>
+	<string name="icon25">Ulan kasama ng niyebe</string>
+	<string name="icon26">Nagyeyelong Ulan</string>
+	<string name="icon27">Hindi kilala</string>
+	<string name="icon28">Hindi kilala</string>
+	<string name="icon29">Ulan at Snow Mixed</string>
+	<string name="icon30">Mainit</string>
+	<string name="icon31">Malamig</string>
+	<string name="icon32">Mahangin</string>
+	<string name="icon33">Maaliwalas</string>
+	<string name="icon34">Karamihan ay Maaliwalas</string>
+	<string name="icon35">Bahagyang Maulap</string>
+	<string name="icon36">Paulit-ulit Ulap</string>
+	<string name="icon37">Malabo</string>
+	<string name="icon38">Karamihan ay Maulap</string>
+	<string name="icon39">Bahagyang Maulap na may Pagbuhos</string>
+	<string name="icon40">Karamihan ay Maulap na may Pagbuhos</string>
+	<string name="icon41">Bahagyang Maulap na may Pagbuhos ng Thunder</string>
+	<string name="icon42">Karamihan ay Maulap na may Pagbuhos ng Thunder</string>
+	<string name="icon43">Karamihan ay Maulap na may Flurries</string>
+	<string name="icon44">Karamihan ay Maulap na may Snow</string>
+	
+	<!--星期的名称-->
+	 <string-array name="weeknames">
+	    <item>en</item>
+        <item>Linggo</item>
+        <item>Lunes</item>
+        <item>Martes</item>
+        <item>Miyerkules</item>
+        <item>Huwebes</item>
+        <item>Biyernes</item>
+        <item>Sabado</item>
+     </string-array>
+     
+ 	<!--高低温简称-->
+    <string name="h">H:</string>
+    <string name="l">L:</string>     
+ <!--设为本地城市-->   
+ <string name="setcity">Itakda sa lokal na lungsod</string>
+ <!--提示城市设置成功-->    
+	 <string name="set">City Itakda Tagumpay!</string>
+<!--提示输入城市名-->	 
+ <string name="citysearchinfo">input lungsod pangalan sa ingles</string>
+ 
+<!--当前城市-->	
+  <string name="currentcity">Kasalukuyang Lungsod:</string>
+<!--弹框提示信息-->	
+    <string name="alert_dialog_city_noinput">input lungsod pangalan sa ingles!</string>
+<!--对话框标题-->	    
+    <string name="alert_dialog_city_list">Pinili mo ang lungsod</string>
+<!--没搜到城市 -->    
+    <string name="alert_dialog_city_not_found">City hindi natagpuan</string>
+ <!--确定 -->   
+    <string name="alert_dialog_ok">Ok</string>
+ <!--正在搜索城市-->       
+    <string name="progress_search_city">Naghahanap ng lungsod ... </string>
+<!--添加城市 -->    
+    <string name="addcity">magdagdag ctiy</string>
+ <!--确定 -->     
+    <string name="add_ok">OK</string>
+<!--取消 -->    
+    <string name="add_cancel">CANCEL</string>
+    
+<!--应用名称 -->      
+<string name="app_name">Damdamin Panahon</string>
+
+    <string name="delete_warning">babala</string>
+    <string name="delete_message">Sigurado ka bang tanggalin \u0020</string>
+
+<!-- add -->
+     <string name="c_hint">输入中文地名</string>	
+    <string name="netbusy">net na ang ay abala, subukan ito mamaya!</string>
+    <string name="chinanet_failed">Kumuha ng panahon nabigo, tingnan ang network ...</string>
+    <string name="failedget">makakuha ng impormasyon nabigo!</string>
+
+    <string name="nonet">Walang net</string>
+    <string name="cloud">Paulit-ulit Cloud</string>
+    <string name="demotime">Wed, Jun 24</string>
+   <string-array name="monthnames">
+        <item>Enero</item>
+        <item>Pebrero</item>
+        <item>Marso</item>
+        <item>Abril</item>
+        <item>Mayo</item>
+        <item>Hunyo</item>
+        <item>Hulyo</item>
+        <item>Agosto</item>
+        <item>Setyembre</item>
+        <item>Oktubre</item>
+        <item>Nobyembre</item>
+        <item>Disyembre</item>
+    </string-array>
+    <string name="loading">loading...</string>
+    <string name="menu_acu">dayuhang net</string>
+    <string name="menu_cen">china net</string>
+    <string name="aboutt">tungkol sa</string>   
+    <string name="flush">mapera</string>
+    <string name="menu_info">Kasalukuyang data, ayon sa ang source!</string>
+    <string name="menu_acuu">Ngayon: acuuweather pinagmulan ng data!</string>
+    <string name="menu_cent">Ngayon: Central meteorolohiko istasyon pinagmulan ng data!</string><!-- midify by xia 0614 -->
+    <string name="china">Tsina </string>   
+    <string name="about">\n1. Sa kaso ng di-network, panahon impormasyon ay ipinapakita bilang ang data sa panahon ng huling matagumpay na networking.
+\n2. Mag-click sa pindutan ng "City" upang lumipat sa ibang mga lungsod.
+\n3. Banyagang website, dahil sa ang binuo na bahagi ng banyagang lungsod, na nais mong ilipat sa iba pang mga lungsod sa input box, ipasok ang ang Ingles na pangalan ng lungsod.At pagkatapos ay itaas-kaliwang sulok ng ang Search icon sa listahan ng paghahanap upang piliin ang mga lungsod na nais mong ilipat, maaari mong. \n
+4. Domestic website, direkta ipasok ang Intsik pangalan ng lungsod sa listahan, piliin ang lungsod na nais mong ilipat, maaari mong. \n
+5.Domestic site ay maaari lamang i-query ang domestic lungsod impormasyon ng panahon; mga dayuhang website Unidos, ang domestic at banyagang lungsod maaari query mas tumpak mga domestic lungsod na may mga domestic website. \n
+6. Gamit ang WiFi network ng mas mabilis na access sa panahon impormasyon.
+.
+</string>
+
+    
+    
+    
+</resources>
+
+

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- 44种天气的描述信息 -->
+	<string name="icon1">cerah</string>
+	<string name="icon2">Sebagian Besar Cerah</string>
+	<string name="icon3">Cerah Sebagian</string>
+	<string name="icon4">intermiten Awan</string>
+	<string name="icon5">Halimun Sunshine</string>
+	<string name="icon6">Mendung Merata</string>
+	<string name="icon7">berawan</string>
+	<string name="icon8">suram</string>
+	<string name="icon9">diketahui</string>
+	<string name="icon10">diketahui</string>
+	<string name="icon11">kabut</string>
+	<string name="icon12">hujan</string>
+	<string name="icon13">MMendung dengan Gerimis</string>
+	<string name="icon14">Sebagian Sunny dengan Hujan</string>
+	<string name="icon15">Petir</string>
+	<string name="icon16">Mendung dengan Gerimis Guntur</string>
+	<string name="icon17">Sebagian Sunny dengan Hujan Guntur</string>
+	<string name="icon18">hujan</string>
+	<string name="icon19">Banjir</string>
+	<string name="icon20">Mendung dengan Banjir</string>
+	<string name="icon21">Sebagian Sunny dengan Banjir</string>
+	<string name="icon22">salju</string>
+	<string name="icon23">Mendung dengan Snow</string>
+	<string name="icon24">es</string>
+	<string name="icon25">hujan bercampur salju</string>
+	<string name="icon26">Hujan Dingin</string>
+	<string name="icon27">diketahui</string>
+	<string name="icon28">diketahui</string>
+	<string name="icon29">Hujan dan Salju Campuran </string>
+	<string name="icon30">panas</string>
+	<string name="icon31">dingin</string>
+	<string name="icon32">berangin</string>
+	<string name="icon33">Hapus</string>
+	<string name="icon34">Partly</string>
+	<string name="icon35">Mendung Sebagian</string>
+	<string name="icon36">intermiten Awan</string>
+	<string name="icon37">kabur</string>
+	<string name="icon38">Mendung Merata</string>
+	<string name="icon39">Mendung dengan Gerimis</string>
+	<string name="icon40">Mendung dengan Gerimis</string>
+	<string name="icon41">Mendung dengan Gerimis Guntur</string>
+	<string name="icon42">MMendung dengan Gerimis Guntur</string>
+	<string name="icon43">Mendung dengan Banjir</string>
+	<string name="icon44">Mendung dengan Snow</string>
+	
+	<!--星期的名称-->
+	 <string-array name="weeknames">
+	    <item>Minggu</item>
+        <item>Minggu</item>
+        <item>Senin</item>
+        <item>Selasa</item>
+        <item>Rabu</item>
+        <item>Kamis</item>
+        <item>Jumat</item>
+        <item>Sabtu</item>
+     </string-array>
+     
+ 	<!--高低温简称-->
+    <string name="h">T:</string>
+    <string name="l">R:</string>     
+ <!--设为本地城市-->   
+ <string name="setcity">Set kota setempat</string>
+ <!--提示城市设置成功-->    
+	 <string name="set">Kota Tetapkan Sukses</string>
+<!--提示输入城市名-->	 
+ <string name="citysearchinfo">masukan nama kota</string>
+ 
+<!--当前城市-->	
+  <string name="currentcity">saat ini Kota:</string>
+<!--弹框提示信息-->	
+    <string name="alert_dialog_city_noinput">silahkan masukan nama kota!</string>
+<!--对话框标题-->	    
+    <string name="alert_dialog_city_list">Pilih kota Anda</string>
+<!--没搜到城市 -->    
+    <string name="alert_dialog_city_not_found">Kota tidak ditemukan</string>
+ <!--确定 -->   
+    <string name="alert_dialog_ok">menentukan</string>
+ <!--正在搜索城市-->       
+    <string name="progress_search_city">Mencari kota ... </string>
+<!--添加城市 -->    
+    <string name="addcity">tambahkan kota</string>
+ <!--确定 -->     
+    <string name="add_ok">menentukan</string>
+<!--取消 -->    
+    <string name="add_cancel">CANCEL</string>
+    
+<!--应用名称 -->      
+<string name="app_name">emosi Cuaca</string>
+
+    <string name="delete_warning">peringatan</string>
+    <string name="delete_message">Apakah Anda yakin untuk menghapus?\u0020</string>
+
+
+<!-- add -->
+     <string name="c_hint">输入中文地名</string>	
+    <string name="netbusy">bersih sedang sibuk, coba nanti!</string>
+    <string name="chinanet_failed">Dapatkan cuaca gagal, periksa jaringan ...</string>
+    <string name="failedget">mendapatkan info gagal!</string>
+
+    <string name="nonet">bersih tidak ada</string>
+    <string name="cloud">Intermittent Cloud</string>
+    <string name="demotime">Wed,Jun 24</string>
+   <string-array name="monthnames">
+        <item>Januari </item>
+        <item>Februari </item>
+        <item>Maret </item>
+        <item>April</item>
+        <item>Mei </item>
+        <item>Juni </item>
+        <item>Juli </item>
+        <item>Agustus </item>
+        <item>September</item>
+        <item>Oktober </item>
+        <item>November </item>
+        <item>Desember </item>
+    </string-array>
+    <string name="loading">loading...</string>
+    <string name="menu_acu">asing bersih</string>
+    <string name="menu_cen">cina bersih</string>
+    <string name="aboutt">tentang</string>   
+    <string name="flush">menyiram</string>
+    <string name="menu_info">Data saat ini, menurut sumber itu!</string>
+    <string name="menu_acuu">Sekarang: acuuweather sumber data!</string>
+    <string name="menu_cent">Sekarang: Pusat Meteorologi Stasiun sumber data!</string><!-- midify by xia 0614 -->
+    <string name="china">Cina </string>   
+    <string name="about">\n1. Dalam hal non-jaringan, informasi cuaca ditampilkan sebagai data cuaca dari jaringan yang sukses terakhir.
+\n2. Klik pada tombol "Kota" untuk beralih ke kota lain.
+\n3. Situs asing, karena bagian yang dibangun dari kota asing, Anda ingin beralih ke kota-kota lainnya di dalam kotak masukan, masukkan nama Inggris kota.Dan kemudian sudut kiri atas ikon Cari di daftar pencarian untuk memilih kota yang Anda ingin beralih, Anda bisa. \n
+4. Situs domestik, langsung masukkan nama kota Cina di daftar, pilih kota Anda ingin beralih, Anda bisa. \n
+5. Situs dalam negeri hanya dapat permintaan informasi cuaca kota negeri; asing website Serikat, kota domestik dan asing dapat query kota domestik lebih akurat dengan situs-situs dalam negeri. \n
+6. Menggunakan jaringan wifi akses cepat ke informasi cuaca.
+
+</string>
+    
+</resources>

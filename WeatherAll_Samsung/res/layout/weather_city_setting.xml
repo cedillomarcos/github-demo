@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:orientation="vertical" 
+     android:layout_marginTop="10dp"
+     android:layout_marginLeft="0dp"
+     android:background="@color/lowwhite"
+     >	
+     <!-- first line  android:autoText="true"
+      android:background="@color/lowwhite"
+      android:background="@drawable/bg2"-->
+     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+         android:layout_width="fill_parent"
+         android:layout_height="44dp"
+         android:layout_marginTop="5dp"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:background="@drawable/sear_input">
+         <ImageView
+           android:id="@+id/search"
+           android:layout_width="44dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft = "0dp"
+           android:layout_height="44dp"
+           android:src="@drawable/search"
+           />
+         <EditText
+           android:id="@+id/city_edittext"
+           android:textSize="25dp"			           
+           android:textColor="#000000"
+           android:maxLines="1"
+           android:layout_marginTop="0dp"
+           android:scrollbars="none"
+           android:paddingLeft="8dp"
+           android:scrollHorizontally="true"
+           android:layout_width="fill_parent"         
+           android:layout_height="44dp"
+           android:background="@drawable/translucentabsolute_background"
+           android:layout_marginLeft="0dp"
+           >   
+         </EditText>    
+         <Button
+         android:id="@+id/addd"
+         android:layout_width="81dp"
+         android:layout_height="50dp"
+         android:layout_marginTop="-14dp"
+          android:layout_marginLeft="10dp"
+         android:visibility="gone"
+         /> 
+        <Button
+         android:id="@+id/delete"
+         android:layout_width="100dp"
+         android:layout_height="50dp"
+         android:visibility="gone"/> 
+         <Button
+         android:id="@+id/add"
+         android:text="@string/defaultset"
+         android:layout_width="120dp"
+         android:layout_height="50dp"
+         android:visibility="gone"/>
+     </LinearLayout>
+     <!-- second line    android:text="@string/addcity"-->
+      <ListView android:id="@+id/city_listview1"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:layout_marginBottom="10dp"
+         android:layout_marginTop="10dp"
+         android:layout_marginRight="5dp"
+         android:layout_marginLeft="5dp"  
+         android:fadingEdge="none"   
+         android:background="@color/white"
+         android:divider="@drawable/app_rss_list_divider"
+         android:listSelector="@drawable/citylistitem"
+         android:drawSelectorOnTop="false"
+         android:cacheColorHint="@null"
+          /> 
+     
+     <!-- <ListView android:id="@+id/city_listview"
+         android:layout_width="385dp"
+         android:layout_height="335dp"
+         android:layout_marginBottom="10dp"
+         android:layout_marginTop="5dp"
+         android:layout_marginRight="0dp"
+         android:layout_marginLeft="10dp" 
+         android:fadingEdge="none" 
+         android:divider="@drawable/divider_horizontal_bright"
+          /> 
+            android:background="@drawable/setbg1"    -->
+         
+     
+      <!-- third line -->
+     <!--   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+         android:layout_width="fill_parent"
+         android:layout_height="40dp"
+         android:gravity="center"
+         android:layout_marginTop="0dp"
+         android:layout_marginLeft="0dp"> 
+   
+    <com.huawei.hid.weatherwidget.MainMenuSeekBar
+       android:layout_width="285dp"
+         android:layout_height="40dp"
+         android:layout_marginTop="0dp"
+         android:layout_marginLeft="50dp" >
+      </com.huawei.hid.weatherwidget.MainMenuSeekBar>
+      
+      </LinearLayout> --> 
+</LinearLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent">	
+ 
+            <LinearLayout
+		         android:layout_width="wrap_content"
+		         android:layout_height="wrap_content"
+		         android:gravity="center">     
+		         <ImageView
+		            android:id="@+id/icon"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content" 
+		          />
+           </LinearLayout>  
+           <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+    <LinearLayout
+		         android:layout_width="60px"
+		         android:layout_height="fill_parent"
+		          android:orientation="vertical"
+		          android:layout_marginLeft="700px"
+		          android:layout_alignParentRight="true"
+		        >   
+		         <Button
+		     android:id="@+id/pre"
+		     android:text="@string/pre"
+		     android:textSize="25dp"
+		     android:layout_width="fill_parent"
+            android:layout_height="50px"            
+            android:textColor="@color/testcolor4"/>         
+           <Button
+               android:id="@+id/next"
+               android:text="@string/next"
+               android:textSize="25dp"
+               android:layout_width="fill_parent"
+               android:layout_height="50px"            
+               android:textColor="@color/testcolor4"
+               android:layout_marginLeft="0dp"/>	
+               
+                <TextView 
+        android:id="@+id/curentstyle"
+        android:text="@string/temp"
+        android:layout_width="fill_parent"
+        android:layout_height="20px"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:textColor = "@color/testcolor4"/>
+    <Button
+        android:id="@+id/select"
+        android:text="@string/select"
+        android:textSize="25dp"
+        android:layout_width="fill_parent"
+        android:layout_height="47px"            
+        android:textColor="@color/testcolor4"
+        android:layout_marginTop="2dp"/>	
+  </LinearLayout> 
+</RelativeLayout>
+</FrameLayout>  
+<!--<TextView 
+         android:text="@string/prompt"
+	     android:layout_width="fill_parent"
+	     android:layout_height="50px"
+	     android:textSize="40dp"
+	     android:gravity="center"
+	     android:textStyle="bold"
+	     android:textColor = "@color/testcolor4">
+	 </TextView>	 -->

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- Calculator <item name="android:gravity">right</item>-->
+	
+	
+     <style name="TranslucentAbsolute" >
+        <item name="android:windowBackground">@drawable/translucentabsolute_background</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:colorForeground">#000000</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+    </style>
+    
+    <style name="Translucent" >
+        <item name="android:windowBackground">@drawable/translucent_background</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:colorForeground">#000000</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+    </style>
+    
+    <style name="CustomTheme">        
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+</resources>

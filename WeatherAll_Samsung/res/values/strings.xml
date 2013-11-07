@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    History:
+    1.zhengguo.xia@ragentek 20120522 BUG_ID:GWLESW-116
+    	Description: set shenzhen default city.
+-->
+<resources>
+   <string-array name="w">
+        <item>风</item>
+        <item>霜</item>
+        <item>雹</item>
+        <item>雾</item>
+        <item>雷</item>
+        <item>雨夹雪</item>
+        <item>雪</item>
+        <item>雨</item>
+        <item>阴</item>
+        <item>云</item>
+        <item>晴</item>
+    </string-array>    	    	
+    <string name="c_hint">输入中文地名</string>	
+    <string name="netbusy">the net is busy,try it later!</string>
+    <string name="chinanet_failed">Get the weather fails, check the network ...</string>
+    <string name="menu_acu">foreign net</string>
+    <string name="menu_cen">china net</string>
+    <string name="aboutt">about</string>
+    <string name="failedget">get info failed!</string>
+    <string name="menu_info">Current data, according to the source!</string>
+    <string name="menu_acuu">Now: acuuweather data source!</string>
+    <string name="menu_cent">Now: Central Meteorological Station data source!</string><!-- midify by xia 0614 -->
+    <string name="china">China</string>
+    <string name="nonet">No net</string>
+    <!-- 中国城市的名称信息  on -->
+    <string name="hongkong">Hongkong</string>
+    <string name="beijing">Beijing</string>
+    <string name="shanghai">Shanghai</string>
+    <string name="tianjin">Tianjin</string>
+    <string name="chongqing">Chongqing</string>
+    <string name="akesu">Akesu</string>
+    <string name="anning">Anning</string>
+    <string name="anqing">Anqing</string>
+    <string name="anshan">Anshan</string>
+    <string name="anshun">Anshun</string>
+    <string name="anyang">Anyang</string>
+    <string name="baicheng">Baicheng</string>
+    <string name="baishan">Baishan</string>
+    <string name="baiyin">Baiyin</string>
+    <string name="bengbu">Bengbu</string>
+    <string name="baoding">Baoding</string>
+    <string name="baoji">Baoji</string>
+    <string name="baoshan">Baoshan</string>
+    <string name="bazhong">Bazhong</string>
+    <string name="beihai">Beihai</string>
+    <string name="benxi">Benxi</string>
+    <string name="binzhou">Binzhou</string>
+    <string name="bole">Bole</string>
+    <string name="bozhou">Bozhou</string>
+    <string name="cangzhou">Cangzhou</string>
+    <string name="changde">Changde</string>
+    <string name="changji">Changji</string>
+    <string name="changshu">Changshu</string>
+    <string name="changzhou">Changzhou</string>
+    <string name="chaohu">Chaohu</string>
+    <string name="chaoyang">Chaoyang</string>
+    <string name="chaozhou">Chaozhou</string>
+    <string name="chengde">Chengde</string>
+    <string name="chengdu">Chengdu</string>
+    <string name="chenggu">Chenggu</string>
+    <string name="chenzhou">Chenzhou</string>
+    <string name="chibi">Chibi</string>
+    <string name="chifeng">Chifeng</string>
+    <string name="chishui">Chishui</string>
+    <string name="chizhou">Chizhou</string>
+    <string name="chongzuo">Chongzuo</string>
+    <string name="chuxiong">Chuxiong</string>
+    <string name="chuzhou">Chuzhou</string>
+    <string name="cixi">Cixi</string>
+    <string name="conghua">Conghua</string>
+    <string name="dali">Dali</string>
+    <string name="dalian">Dalian</string>
+    <string name="dandong">Dandong</string>
+    <string name="danyang">Danyang</string>
+    <string name="daqing">Daqing</string>
+    <string name="datong">Datong</string>
+    <string name="dazhou">Dazhou</string>
+    <string name="deyang">Deyang</string>
+    <string name="dezhou">Dezhou</string>
+    <string name="dongguan">Dongguan</string>
+    <string name="dongyang">Dongyang</string>
+    <string name="dongying">Dongying</string>
+    <string name="douyun">Douyun</string>
+    <string name="dunhua">Dunhua</string>
+    <string name="eerduosi">Eerduosi</string>
+    <string name="enshi">Enshi</string>
+    <string name="fangchenggang">Fangchenggang</string>
+    <string name="feicheng">Feicheng</string>
+    <string name="fenghua">Fenghua</string>
+    <string name="fushun">Fushun</string>
+    <string name="fuxin">Fuxin</string>
+    <string name="fuyang">Fuyang</string>
+    <string name="fuyang1">Fuyang1</string>
+    <string name="fuzhou">Fuzhou</string>
+    <string name="fuzhou1">Fuzhou1</string>
+    <string name="ganyu">Ganyu</string>
+    <string name="ganzhou">Ganzhou</string>
+    <string name="gaoming">Gaoming</string>
+    <string name="gaoyou">Gaoyou</string>
+    <string name="geermu">Geermu</string>
+    <string name="gejiu">Gejiu</string>
+    <string name="gongyi">Gongyi</string>
+    <string name="guangan">Guangan</string>
+    <string name="guangyuan">Guangyuan</string>
+    <string name="guangzhou">Guangzhou</string>
+    <string name="gubaotou">Gubaotou</string>
+    <string name="guigang">Guigang</string>
+    <string name="guilin">Guilin</string>
+    <string name="guiyang">Guiyang</string>
+    <string name="guyuan">Guyuan</string>
+    <string name="haerbin">Haerbin</string>
+    <string name="haicheng">Haicheng</string>
+    <string name="haikou">Haikou</string>
+    <string name="haimen">Haimen</string>
+    <string name="haining">Haining</string>
+    <string name="hami">Hami</string>
+    <string name="handan">Handan</string>
+    <string name="hangzhou">Hangzhou</string>
+    <string name="hanzhong">Hanzhong</string>
+    <string name="hebi">Hebi</string>
+    <string name="hefei">Hefei</string>
+    <string name="hengshui">Hengshui</string>
+    <string name="hengyang">Hengyang</string>
+    <string name="hetian">Hetian</string>
+    <string name="heyuan">Heyuan</string>
+    <string name="heze">Heze</string>
+    <string name="huadou">Huadou</string>
+    <string name="huaian">Huaian</string>
+    <string name="huaibei">Huaibei</string>
+    <string name="huaihua">Huaihua</string>
+    <string name="huainan">Huainan</string>
+    <string name="huanggang">Huanggang</string>
+    <string name="huangshan">Huangshan</string>
+    <string name="huangshi">Huangshi</string>
+    <string name="huhehaote">Huhehaote</string>
+    <string name="huizhou">Huizhou</string>
+    <string name="huludao">Huludao</string>
+    <string name="huzhou">Huzhou</string>
+    <string name="jiamusi">Jiamusi</string>
+    <string name="jian">Jian</string>
+    <string name="jiangdou">Jiangdou</string>
+    <string name="jiangmen">Jiangmen</string>
+    <string name="jiangyin">Jiangyin</string>
+    <string name="jiaonan">Jiaonan</string>
+    <string name="jiaozhou">Jiaozhou</string>
+    <string name="jiaozuo">Jiaozuo</string>
+    <string name="jiashan">Jiashan</string>
+    <string name="jiaxing">Jiaxing</string>
+    <string name="jiexiu">Jiexiu</string>
+    <string name="jilin">Jilin</string>
+    <string name="jimo">Jimo</string>
+    <string name="jinan">Jinan</string>
+    <string name="jincheng">Jincheng</string>
+    <string name="jingdezhen">Jingdezhen</string>
+    <string name="jinghong">Jinghong</string>
+    <string name="jingjiang">Jingjiang</string>
+    <string name="jingmen">Jingmen</string>
+    <string name="jingzhou">Jingzhou</string>
+    <string name="jinhua">Jinhua</string>
+    <string name="jining1">Jining1</string>
+    <string name="jining">Jining</string>
+    <string name="jinjiang">Jinjiang</string>
+    <string name="jintan">Jintan</string>
+    <string name="jinzhong">Jinzhong</string>
+    <string name="jinzhou">Jinzhou</string>
+    <string name="jishou">Jishou</string>
+    <string name="jiujiang">Jiujiang</string>
+    <string name="jiuquan">Jiuquan</string>
+    <string name="jixi">Jixi</string>
+    <string name="jiyuan">Jiyuan</string>
+    <string name="jurong">Jurong</string>
+    <string name="kaifeng">Kaifeng</string>
+    <string name="kaili">Kaili</string>
+    <string name="kaiping">Kaiping</string>
+    <string name="kaiyuan">Kaiyuan</string>
+    <string name="kashen">Kashen</string>
+    <string name="kelamayi">Kelamayi</string>
+    <string name="kuerle">Kuerle</string>
+    <string name="kuitun">Kuitun</string>
+    <string name="kunming">Kunming</string>
+    <string name="kunshan">Kunshan</string>
+    <string name="laibin">Laibin</string>
+    <string name="laiwu">Laiwu</string>
+    <string name="laixi">Laixi</string>
+    <string name="laizhou">Laizhou</string>
+    <string name="langfang">Langfang</string>
+    <string name="lanzhou">Lanzhou</string>
+    <string name="lasa">Lasa</string>
+    <string name="leshan">Leshan</string>
+    <string name="lianyungang">Lianyungang</string>
+    <string name="liaocheng">Liaocheng</string>
+    <string name="liaoyang">Liaoyang</string>
+    <string name="liaoyuan">Liaoyuan</string>
+    <string name="lijiang">Lijiang</string>
+    <string name="linan">Linan</string>
+    <string name="lincang">Lincang</string>
+    <string name="linfen">Linfen</string>
+    <string name="lingbao">Lingbao</string>
+    <string name="linhe">Linhe</string>
+    <string name="linxia">Linxia</string>
+    <string name="linyi">Linyi</string>
+    <string name="lishui">Lishui</string>
+    <string name="liuan">Liuan</string>
+    <string name="liupanshui">Liupanshui</string>
+    <string name="liuzhou">Liuzhou</string>
+    <string name="liyang">Liyang</string>
+    <string name="longhai">Longhai</string>
+    <string name="longyan">Longyan</string>
+    <string name="loudi">Loudi</string>
+    <string name="luohe">Luohe</string>
+    <string name="luoyang">Luoyang</string>
+    <string name="luxi">Luxi</string>
+    <string name="luzhou">Luzhou</string>
+    <string name="lvliang">Lvliang</string>
+    <string name="lvshun">Lvshun</string>
+    <string name="maanshan">Maanshan</string>
+    <string name="maoming">Maoming</string>
+    <string name="meihekou">Meihekou</string>
+    <string name="meishan">Meishan</string>
+    <string name="meizhou">Meizhou</string>
+    <string name="mianxian">Mianxian</string>
+    <string name="mianyang">Mianyang</string>
+    <string name="mudanjiang">Mudanjiang</string>
+    <string name="nanan">Nanan</string>
+    <string name="nanchang">Nanchang</string>
+    <string name="nanchong">Nanchong</string>
+    <string name="nanjing">Nanjing</string>
+    <string name="nanning">Nanning</string>
+    <string name="nanping">Nanping</string>
+    <string name="nantong">Nantong</string>
+    <string name="nanyang">Nanyang</string>
+    <string name="neijiang">Neijiang</string>
+    <string name="ningbo">Ningbo</string>
+    <string name="ningde">Ningde</string>
+    <string name="panjin">Panjin</string>
+    <string name="panzhihua">Panzhihua</string>
+    <string name="penglai">Penglai</string>
+    <string name="pingdingshan">Pingdingshan</string>
+    <string name="pingdu">Pingdu</string>
+    <string name="pinghu">Pinghu</string>
+    <string name="pingliang">Pingliang</string>
+    <string name="pingxiang">Pingxiang</string>
+    <string name="pulandian">Pulandian</string>
+    <string name="puning">Puning</string>
+    <string name="putian">Putian</string>
+    <string name="puyang">Puyang</string>
+    <string name="qiannan">Qiannan</string>
+    <string name="qidong">Qidong</string>
+    <string name="qingdao">Qingdao</string>
+    <string name="qingyang">Qingyang</string>
+    <string name="qingyuan">Qingyuan</string>
+    <string name="qingzhou">Qingzhou</string>
+    <string name="qinhuangdao">Qinhuangdao</string>
+    <string name="qinzhou">Qinzhou</string>
+    <string name="qionghai">Qionghai</string>
+    <string name="qiqihaer">Qiqihaer</string>
+    <string name="quanzhou">Quanzhou</string>
+    <string name="qujing">Qujing</string>
+    <string name="quzhou">Quzhou</string>
+    <string name="rikaze">Rikaze</string>
+    <string name="rizhao">Rizhao</string>
+    <string name="rongcheng">Rongcheng</string>
+    <string name="rugao">Rugao</string>
+    <string name="ruian">Ruian</string>
+    <string name="rushan">Rushan</string>
+    <string name="sanmenxia">Sanmenxia</string>
+    <string name="sanming">Sanming</string>
+    <string name="sanya">Sanya</string>
+    <string name="xiamen">Xiamen</string>
+    <string name="shan">Shan</string>
+    <string name="shangluo">Shangluo</string>
+    <string name="shangqiu">Shangqiu</string>
+    <string name="shangrao">Shangrao</string>
+    <string name="shangyu">Shangyu</string>
+    <string name="shantou">Shantou</string>
+    <string name="ankang">Ankang</string>
+    <string name="shaoguan">Shaoguan</string>
+    <string name="shaoxing">Shaoxing</string>
+    <string name="shaoyang">Shaoyang</string>
+    <string name="shenyang">Shenyang</string>
+    <string name="shenzhen">Shenzhen</string>
+    <string name="shihezi">Shihezi</string>
+    <string name="shijiazhuang">Shijiazhuang</string>
+    <string name="shilin">Shilin</string>
+    <string name="shishi">Shishi</string>
+    <string name="shiyan">Shiyan</string>
+    <string name="shouguang">Shouguang</string>
+    <string name="shuangyashan">Shuangyashan</string>
+    <string name="shuozhou">Shuozhou</string>
+    <string name="shuyang">Shuyang</string>
+    <string name="simao">Simao</string>
+    <string name="siping">Siping</string>
+    <string name="songyuan">Songyuan</string>
+    <string name="suining">Suining</string>
+    <string name="suizhou">Suizhou</string>
+    <string name="suzhou">Suzhou</string>
+    <string name="tacheng">Tacheng</string>
+    <string name="taian">Taian</string>
+    <string name="taicang">Taicang</string>
+    <string name="taixing">Taixing</string>
+    <string name="taiyuan">Taiyuan</string>
+    <string name="taizhou">Taizhou</string>
+    <string name="taizhou1">Taizhou1</string>
+    <string name="tangshan">Tangshan</string>
+    <string name="tengchong">Tengchong</string>
+    <string name="tengzhou">Tengzhou</string>
+    <string name="tianmen">Tianmen</string>
+    <string name="tianshui">Tianshui</string>
+    <string name="tieling">Tieling</string>
+    <string name="tongchuan">Tongchuan</string>
+    <string name="tongliao">Tongliao</string>
+    <string name="tongling">Tongling</string>
+    <string name="tonglu">Tonglu</string>
+    <string name="tongren">Tongren</string>
+    <string name="tongxiang">Tongxiang</string>
+    <string name="tongzhou">Tongzhou</string>
+    <string name="tonghua">Tonghua</string>
+    <string name="tulufan">Tulufan</string>
+    <string name="wafangdian">Wafangdian</string>
+    <string name="weifang">Weifang</string>
+    <string name="weihai">Weihai</string>
+    <string name="weinan">Weinan</string>
+    <string name="wendeng">Wendeng</string>
+    <string name="wenling">Wenling</string>
+    <string name="wenzhou">Wenzhou</string>
+    <string name="wuhai">Wuhai</string>
+    <string name="wuhan">Wuhan</string>
+    <string name="wuhu">Wuhu</string>
+    <string name="wujiang">Wujiang</string>
+    <string name="wulanhaote">Wulanhaote</string>
+    <string name="wuwei">Wuwei</string>
+    <string name="wuxi">Wuxi</string>
+    <string name="wuzhou">Wuzhou</string>
+    <string name="xian">Xian</string>
+    <string name="xiangcheng">Xiangcheng</string>
+    <string name="xiangfan">Xiangfan</string>
+    <string name="xianggelila">Xianggelila</string>
+    <string name="xiangshan">Xiangshan</string>
+    <string name="xiangtan">Xiangtan</string>
+    <string name="xiangxiang">Xiangxiang</string>
+    <string name="xianning">Xianning</string>
+    <string name="xiantao">Xiantao</string>
+    <string name="xianyang">Xianyang</string>
+    <string name="xicang">Xicang</string>
+    <string name="xichang">Xichang</string>
+    <string name="xingtai">Xingtai</string>
+    <string name="xingyi">Xingyi</string>
+    <string name="xining">Xining</string>
+    <string name="xinxiang">Xinxiang</string>
+    <string name="xinyang">Xinyang</string>
+    <string name="xinyu">Xinyu</string>
+    <string name="xinzhou">Xinzhou</string>
+    <string name="suqian">Suqian</string>
+    <string name="suyu">Suyu</string>
+    <string name="suzhou1">Suzhou1</string>
+    <string name="xuancheng">Xuancheng</string>
+    <string name="xuchang">Xuchang</string>
+    <string name="xuzhou">Xuzhou</string>
+    <string name="yaan">Yaan</string>
+    <string name="yakeshi">Yakeshi</string>
+    <string name="yanan">Yanan</string>
+    <string name="yanbian">Yanbian</string>
+    <string name="yancheng">Yancheng</string>
+    <string name="yangjiang">Yangjiang</string>
+    <string name="yangquan">Yangquan</string>
+    <string name="yangzhou">Yangzhou</string>
+    <string name="yanji">Yanji</string>
+    <string name="yantai">Yantai</string>
+    <string name="yanzhou">Yanzhou</string>
+    <string name="yibin">Yibin</string>
+    <string name="yichang">Yichang</string>
+    <string name="yichun">Yichun</string>
+    <string name="yichun1">Yichun1</string>
+    <string name="yili">Yili</string>
+    <string name="yinchuan">Yinchuan</string>
+    <string name="yingkou">Yingkou</string>
+    <string name="yingtan">Yingtan</string>
+    <string name="yining">Yining</string>
+    <string name="yiwu">Yiwu</string>
+    <string name="yixing">Yixing</string>
+    <string name="yiyang">Yiyang</string>
+    <string name="yongkang">Yongkang</string>
+    <string name="yongzhou">Yongzhou</string>
+    <string name="yueyang">Yueyang</string>
+    <string name="yuhuan">Yuhuan</string>
+    <string name="yulin1">Yulin1</string>
+    <string name="yulin">Yulin</string>
+    <string name="yuncheng">Yuncheng</string>
+    <string name="yuxi">Yuxi</string>
+    <string name="yuyao">Yuyao</string>
+    <string name="zaozhuang">Zaozhuang</string>
+    <string name="zengcheng">Zengcheng</string>
+    <string name="changchun">Changchun</string>
+    <string name="changhai">Changhai</string>
+    <string name="zhangjiagang">Zhangjiagang</string>
+    <string name="zhangjiajie">Zhangjiajie</string>
+    <string name="zhangjiakou">Zhangjiakou</string>
+    <string name="changle">Changle</string>
+    <string name="zhangqiu">Zhangqiu</string>
+    <string name="changsha">Changsha</string>
+    <string name="zhangye">Zhangye</string>
+    <string name="changzhi">Changzhi</string>
+    <string name="zhangzhou">Zhangzhou</string>
+    <string name="zhanjiang">Zhanjiang</string>
+    <string name="zhaodong">Zhaodong</string>
+    <string name="zhaoqing">Zhaoqing</string>
+    <string name="zhaotong">Zhaotong</string>
+    <string name="zhengzhou">Zhengzhou</string>
+    <string name="zhenjiang">Zhenjiang</string>
+    <string name="zhongshan">Zhongshan</string>
+    <string name="zhoukou">Zhoukou</string>
+    <string name="zhoushan">Zhoushan</string>
+    <string name="zhucheng">Zhucheng</string>
+    <string name="zhuhai">Zhuhai</string>
+    <string name="zhuji">Zhuji</string>
+    <string name="zhumadian">Zhumadian</string>
+    <string name="zhuzhou">Zhuzhou</string>
+    <string name="zibo">Zibo</string>
+    <string name="zigong">Zigong</string>
+    <string name="zunyi">Zunyi</string>
+    <string name="wulumuqi">Wulumuqi</string>
+    <string name="fuqing">Fuqing</string>
+    <string name="ezhou">Ezhou</string>
+    <string name="baotou">Baotou</string>
+    <string name="xiaoshan">Xiaoshan</string>
+    <string name="xuanhua">Xuanhua</string>
+    <string name="jiangyou">Jiangyou</string>
+    <string name="ziyang">Ziyang</string>
+    <string name="xinji">Xinji</string>
+    <string name="foshan">Foshan</string>
+    <string name="wanzhou">Wanzhou</string>
+    <string name="zoucheng">Zoucheng</string>
+    <string name="shaowu">Shaowu</string>
+    <string name="jiangyan">Jiangyan</string>
+    <string name="xiangyin">Xiangyin</string>
+    <string name="songjiang">Songjiang</string>
+    <string name="qitaihe">Qitaihe</string>
+    <string name="liling">Liling</string>
+    <string name="fuling">Fuling</string>
+    <string name="gongzhuling">Gongzhuling</string>
+    <string name="shexian">Shexian</string>
+    <string name="xinghua">Xinghua</string>
+    <!-- 中国城市的名称信息  off -->
+    <!-- 泰国城市 on-->
+    <string name="bangkok">bangkok</string>
+    <string name="chaiyaphum">chaiyaphum</string>
+    <string name="chanthaburi">chanthaburi</string>    
+    <string name="chiangmai">chiangmai</string>
+    <string name="chiangrai">chiangrai</string>
+    <string name="chonburi">chonburi</string> 
+    <string name="chumphon">chumphon</string>
+    <string name="haadyai">haadyai</string>
+    <string name="huahin">huahin</string>
+    <string name="kamphang">kamphang</string>
+    <string name="lampang">lampang</string>
+    <string name="lopburi">lopburi</string>
+    <string name="nakhonpathom">nakhonpathom</string>
+    <string name="nakhonsawan">nakhonsawan</string>
+    <string name="nongkhai">nongkhai</string>
+    <string name="pattaya">pattaya</string>
+    <string name="phitsanulok">phitsanulok</string>
+    <string name="phuket">phuket</string>
+    <string name="saraburi">saraburi</string>
+    <string name="suphanburi">suphanburi</string>
+    <string name="songkhla">songkhla</string>
+    <string name="takhli">takhli</string>
+    <string name="udonthani">udonthani</string>
+    <string name="trang">trang</string>
+   <!-- 泰国城市 off--> 
+    <!-- 省份 on -->
+    <string name="hebei">Hebei</string>
+    <string name="shanxi">Shanxi</string>
+    <string name="liaoning">Liaoning</string>
+    <string name="heilungkiang">Heilungkiang</string>
+    <string name="jiangsu">Jiangsu</string>
+    <string name="zhejiang">Zhejiang</string>
+    <string name="anhui">Anhui</string>
+    <string name="fujian">Fujian</string>
+    <string name="jiangxi">Jiangxi</string>
+    <string name="shandong">Shandong</string>
+    <string name="henan">Henan</string>
+    <string name="hubei">Hubei</string>
+    <string name="hunan">Hunan</string>
+    <string name="guangdong">Guangdong</string>
+    <string name="hainan">Hainan</string>
+    <string name="sichuan">Sichuan</string>
+    <string name="guizhou">Guizhou</string>
+    <string name="yunnan">Yunnan</string>
+    <string name="shaanxi">Shaanxi</string>
+    <string name="gansu">Gansu</string>
+    <string name="qinghai">Qinghai</string>
+    <string name="taiwan">Taiwan</string>
+    <string name="inner">Inner</string>
+    <string name="guangxi">Guangxi</string>
+    <string name="ningxia">Ningxia</string>
+    <string name="xinjiang">Xinjiang</string>
+    <string name="xizang">Xizang</string>
+    <string name="macao">Macao</string>
+    <!-- 省份 off-->
+
+
+    <!-- 44种天气的描述信息 -->
+    <string name="icon0">晴朗</string>
+    <string name="icon1">Sunny</string>
+    <string name="icon2">Mostly Sunny</string>
+    <string name="icon3">Partly Sunny</string>
+    <string name="icon4">Intermittent Clouds</string>
+    <string name="icon5">Hazy Sunshine</string>
+    <string name="icon6">Mostly Cloudy</string>
+    <string name="icon7">Cloudy</string>
+    <string name="icon8">Dreary</string>
+    <string name="icon9">Unknown</string>
+    <string name="icon10">Unknown</string>
+    <string name="icon11">Fog</string>
+    <string name="icon12">Showers</string>
+    <string name="icon13">Mostly Cloudy with Showers</string>
+    <string name="icon14">Partly Sunny with Showers</string>
+    <string name="icon15">Thunderstorms</string>
+    <string name="icon16">Mostly Cloudy with Thunder Showers</string>
+    <string name="icon17">Partly Sunny with Thunder Showers</string>
+    <string name="icon18">Rain</string>
+    <string name="icon19">Flurries</string>
+    <string name="icon20">Mostly Cloudy with Flurries</string>
+    <string name="icon21">Partly Sunny with Flurries</string>
+    <string name="icon22">Snow</string>
+    <string name="icon23">Mostly Cloudy with Snow</string>
+    <string name="icon24">Ice</string>
+    <string name="icon25">Sleet</string>
+    <string name="icon26">Freezing Rain</string>
+    <string name="icon27">Unknown</string>
+    <string name="icon28">Unknown</string>
+    <string name="icon29">Rain and Snow Mixed</string>
+    <string name="icon30">Hot</string>
+    <string name="icon31">Cold</string>
+    <string name="icon32">Windy</string>
+    <string name="icon33">Clear</string>
+    <string name="icon34">Mostly Clear</string>
+    <string name="icon35">Partly Cloudy</string>
+    <string name="icon36">Intermittent Clouds</string>
+    <string name="icon37">Hazy</string>
+    <string name="icon38">Mostly Cloudy</string>
+    <string name="icon39">Partly Cloudy with Showers</string>
+    <string name="icon40">Mostly Cloudy with Showers</string>
+    <string name="icon41">Partly Cloudy with Thunder Showers</string>
+    <string name="icon42">Mostly Cloudy with Thunder Showers</string>
+    <string name="icon43">Mostly Cloudy with Flurries</string>
+    <string name="icon44">Mostly Cloudy with Snow</string>
+    <string name="h">H:</string>
+    <string name="l">L:</string>
+    <string name="cloud">Intermittent Cloud</string>
+    <string name="demotime">Wed,Jun 24"</string>
+
+    <color name="gray">#ffffff</color>
+
+    <string-array name="weeknames">
+        <item>en</item>
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+    <string-array name="monthnames">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+    <string-array name="winddirections">
+        <item>North</item>
+        <item>NNE</item>
+        <item>NE</item>
+        <item>ENE</item>
+        <item>East</item>
+        <item>ESE</item>
+        <item>SE</item>
+        <item>SSE</item>
+        <item>South</item>
+        <item>SSW</item>
+        <item>SW</item>
+        <item>WSW</item>
+        <item>West</item>
+        <item>WNW</item>
+        <item>NW</item>
+        <item>NNW</item>
+    </string-array>
+    <string-array name="defaultcities">
+        <item>values (\'Baden\',\'Austria(Lower Austria)\',\'EUR|AT|AU003|BADEN\');</item>
+        <item>values (\'Graz\',\'Austria(Styria)\',\'EUR|AT|AU006|GRAZ\');</item>
+        <item>values (\'Innsbruck\',\'Austria(Tyrol)\',\'EUR|AT|AU007|INNSBRUCK\');</item>
+        <item>values (\'Klagenfurt\',\'Austria(Karnten)\',\'EUR|AT|AU002|KLAGENFURT\');</item>
+        <item>values (\'Linz\',\'Austria(Upper Austria)\',\'EUR|AT|AU004|LINZ\');</item>
+        <item>values (\'Mondsee\',\'Austria(Upper Austria)\',\'EUR|AT|AU004|MONDSEE\');</item>
+        <item>values (\'Salzburg\',\'Austria(Salzburg)\',\'EUR|AT|AU005|SALZBURG\');</item>
+        <item>values (\'Vienna\',\'Austria(Vienna)\',\'EUR|AT|AU009|VIENNA\');</item>
+        <item>values (\'Shenzhen\',\'China(Guangdong)\',\'ASI|CN|CH006|SHENZHEN\');</item>
+        <item>values (\'Vienna\',\'Austria(Vienna)\',\'EUR|AT|AU009|VIENNA\');</item>
+        <item>values (\'Jakarta\',\'Indonesia(Jakarta Raya)\',\'ASI|ID|ID009|JAKARTA\');</item>
+        <item>values (\'Kuala\',\'Malaysia(Sabah)\',\'ASI|MY|MY011|KUALA\');</item> 
+        <!--
+        <item>values (\'Beijing\',\'China\',\'ASI|CN|CH002|BEIJING\');</item>
+        <item>values (\'Shanghai\',\'China\',\'ASI|CN|CH024|SHANGHAI\');</item>
+        
+        <item>values (\'Shenzhen\',\'China(Guangdong)\',\'ASI|HK|HK%2D%2D%2D|HONG+KONG\');</item>
+        
+        
+        <item>values (\'Wuhan\',\'China(Hubei)\',\'ASI|CN|CH013|WUHAN\');</item>
+        <item>values (\'Hongkong\',\'China\',\'ASI|HK|HK%2D%2D%2D|HONG+KONG\');</item>  
+        <item>values (\'Harbin\',\'China(Heilongjiang)\',\'ASI|CN|CH011|HARBIN\');</item>  
+        <item>values (\'Xiangtan\',\'China(Hunan)\',\'ASI|CN|CH014|SHAOSHAN\');</item>
+        -->
+
+    </string-array>
+
+    <string name="citysearchinfo">input city name</string>
+    <string name="set"> City Set Success! </string>
+    <string name="delete_warning">warning</string>
+    <string name="delete_message">Are you sure to delete \u0020</string>
+    <string name="delete_ok">OK</string>
+    <string name="delete_cancel">CANCEL</string>
+    <string name="tt">16°</string>
+    <string name="ht">26°</string>
+    <string name="lt">15°</string>
+    <string name="datesplite">//</string>
+    <string name="datesplite2">\u0020</string>
+    <string name="setcity">Setlocalcity</string>
+    <string name="currentcity">Current City:</string>
+    <string name="defaultset">default</string>
+    <string name="selectacity">select a district:</string>
+    <string name="alert_dialog_city_noinput">input city name please!</string>
+    <string name="alert_dialog_city_list">Select you city</string>
+    <string name="alert_dialog_city_not_found">City not found</string>
+    <string name="alert_dialog_ok">Ok</string>
+    <string name="title_city_list">Choose a city from list</string>
+    <string name="progress_search_city">Searching city ... </string>
+    <string name="addcity">add ctiy</string>
+    <string name="add_ok">OK</string>
+    <string name="add_cancel">CANCEL</string>
+    <string name="Citysetting">City setting</string>
+    <string name="app_name">EmotionWeather</string>
+    <string name="n_a">n/a</string>
+    <string name="wainting">waiting...</string>
+    <string name="description">description : </string>
+    <string name="flush">flush</string>
+    <string name="weahtersetting">weahter</string>
+    <string name="Icontypesetting">Select a widget style</string>
+    <string name="am">上午</string>
+    <string name="c1">\u0020\u0020\u0020\u0020\u0020\u0020</string>
+    <string name="c2">\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020</string>
+    <string name="c3">\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020</string>
+    <string name="aa">aa</string>
+    <string name="bb">bb</string>
+    <string name="space"></string>
+    <string name="one">one</string>
+    <string name="two">tw0</string>
+    <string name="three">three</string>
+    <string name="four">four</string>
+    <string name="five">five</string>
+    <string name="six">six</string>
+    <string name="prompt">Select a widget style</string>
+    <string name="pre">"(("</string>
+    <string name="next">"))"</string>
+    <string name="select">Select</string>
+    <string name="today">Today</string>
+    <string name="week1">Mon</string>
+    <string name="week2">Tue</string>
+    <string name="week3">Wed</string>
+    <string name="week4">Thu</string>
+    <string name="lin">/</string>
+    <string name="temp">(1/3)</string>
+    <string name="winds">Winds : </string>
+    <string name="at"> at </string>
+    <string name="mph">mph</string>
+    <string name="humidity1">Humidity :</string>
+    <string name="humidity"> Humidity : 75%</string>
+    <string name="windsp">Winds:N at 6mph</string>
+    <string name="temperature">45</string>
+    <string name="highlow_temperature">12</string>
+    <string name="city"> GuangZhou </string>
+    <string name="Celsius_c">℃</string>
+    <string name="Celsius">°</string>
+    <string name="Fahrenheit"> ℉ </string>
+    <string name="date"> 06/19 Fri </string>
+    <string name="date1"> 06/19 Fri </string>
+    <string name="location_auto_preference">Auto</string>
+    <string name="location_zip_city_preference">US ZipCode, City Name</string>
+    <string name="unit_metric_preference">Metric</string>
+    <string name="unit_english_preference">English</string>
+    <string name="update_preference">Update settings</string>
+    <string name="dialog_update_type_preference">Choose update type</string>
+    <string name="update_auto_preference">Auto</string>
+    <string name="update_manual_preference">Manual</string>
+    <string name="loading">loading...</string>
+    <string name="about">\n1. In the case of non-networked, weather information is displayed as the weather data of the last successful networking.
+\n2. Click on the "City" button to switch to other cities.
+\n3. Foreign websites, because of the built part of the foreign city, you want to switch to other cities in the input box, enter the English name of the city.
+And then the upper-left corner of the Search icon in the search list to select the cities you want to switch, you can. \n
+4. Domestic websites, directly enter the Chinese city name in the list, select the city you want to switch, you can. \n
+5. Domestic site can only query the domestic city weather information; foreign websites States, domestic and foreign cities can query more accurate domestic cities with domestic websites. \n
+6. Using the wifi network faster access to weather information.
+</string>
+
+
+<!--    
+    <string name="default_location_city">Vienna</string>
+    <string name="default_location_zip">EUR|AT|AU009|VIENNA</string>
+    <string name="default_location_area">China</string>    
+    <string name="default_center_location_city">北京</string>
+    <string name="default_center_location_zip">101010100</string>
+     
+    <string name="default_location_city">香港</string>
+    <string name="default_location_zip">ASI|HK|HK%2D%2D%2D|HONG+KONG</string>
+    <string name="default_location_area">China</string>
+    <string name="default_center_location_city">Hongkong</string>
+    <string name="default_center_location_zip">101320101</string>
+-->
+    <string name="default_location_city">Shenzhen</string>
+    <string name="default_location_zip">ASI|CN|CH006|SHENZHEN</string>
+    <string name="default_location_area">China(Guangdong)</string>
+    
+    <string name="default_center_location_city">深圳</string>
+    <string name="default_center_location_zip">101280601</string>  
+<!-- modify  BUG_ID:GWLESW-116 xiazhengguo  20120522(off) -->   
+</resources>

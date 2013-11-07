@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- 44种天气的描述信息 -->
+	<string name="icon1">sonnig</string>
+	<string name="icon2">meist sonnig</string>
+	<string name="icon3">Vereinzelt Regen</string>
+	<string name="icon4">Heiter bis wolkig</string>
+	<string name="icon5">Hazy Sonnenschein</string>
+	<string name="icon6">bewölkt</string>
+	<string name="icon7">bewölkt</string>
+	<string name="icon8">trist</string>
+	<string name="icon9">unbekannt</string>
+	<string name="icon10">unbekannt</string>
+	<string name="icon11">Nebel</string>
+	<string name="icon12">Duschen</string>
+	<string name="icon13">Bewölkt mit Regenschauern</string>
+	<string name="icon14">Wolkig mit Regenschauern</string>
+	<string name="icon15">Gewitter</string>
+	<string name="icon16">Bewölkt mit Gewitterschauer</string>
+	<string name="icon17">Meist sonnig mit Gewitterschauer</string>
+	<string name="icon18">Regen</string>
+	<string name="icon19">Schneeschauer</string>
+	<string name="icon20">Bewölkt mit Schneeschauern</string>
+	<string name="icon21">Wolkig mit Schneeschauern</string>
+	<string name="icon22">Schnee</string>
+	<string name="icon23">Bewölkt mit Schnee</string>
+	<string name="icon24">Eis</string>
+	<string name="icon25">Schneeregen</string>
+	<string name="icon26">gefrierender Regen</string>
+	<string name="icon27">unbekannt</string>
+	<string name="icon28">unbekannt</string>
+	<string name="icon29">Regen und Schnee Mixed </string>
+	<string name="icon30">heiß</string>
+	<string name="icon31">Kälte</string>
+	<string name="icon32">windig</string>
+	<string name="icon33">klar</string>
+	<string name="icon34">Überwiegend bewölkt</string>
+	<string name="icon35">teilweise bewölkt</string>
+	<string name="icon36">Heiter bis wolkig</string>
+	<string name="icon37">dunstig</string>
+	<string name="icon38">bewölkt</string>
+	<string name="icon39">Bewölkt mit Regen</string>
+	<string name="icon40">Bewölkt mit Regenschauern</string>
+	<string name="icon41">Bewölkt mit Gewitterschauer</string>
+	<string name="icon42">Bewölkt mit Gewitterschauer</string>
+	<string name="icon43">Bewölkt mit Schneeschauern</string>
+	<string name="icon44">Bewölkt mit Schnee</string>
+	
+	<!--星期的名称-->
+	 <string-array name="weeknames">
+	 <item>Sonntag</item>
+        <item>Sonntag</item>
+        <item>Montag</item>
+        <item>Dienstag</item>
+        <item>Mittwoch</item>
+        <item>Donnerstag</item>
+        <item>Freitag</item>
+        <item>Samstag</item>
+     </string-array>
+     
+ 	<!--高低温简称-->
+    <string name="h">H:</string>
+    <string name="l">N:</string>     
+ <!--设为本地城市-->   
+ <string name="setcity">Set lokalen Stadt</string>
+ <!--提示城市设置成功-->    
+	 <string name="set">Stadt Set Success</string>
+<!--提示输入城市名-->	 
+ <string name="citysearchinfo">Ein Name der Stadt</string>
+ 
+<!--当前城市-->	
+  <string name="currentcity">Aktuell Stadt:</string>
+<!--弹框提示信息-->	
+    <string name="alert_dialog_city_noinput">Ein Name der Stadt finden!</string>
+<!--对话框标题-->	    
+    <string name="alert_dialog_city_list">Wählen Sie Stadt</string>
+<!--没搜到城市 -->    
+    <string name="alert_dialog_city_not_found">Stadt nicht gefunden</string>
+ <!--确定 -->   
+    <string name="alert_dialog_ok">bestimmen</string>
+ <!--正在搜索城市-->       
+    <string name="progress_search_city">Searching Stadt ... </string>
+<!--添加城市 -->    
+    <string name="addcity">hinzufügen Stadt</string>
+ <!--确定 -->     
+    <string name="add_ok">bestimmen</string>
+<!--取消 -->    
+    <string name="add_cancel">CANCEL</string>
+    
+<!--应用名称 -->      
+<string name="app_name">Emotion Wetter</string>
+
+    <string name="delete_warning">Warnung</string>
+    <string name="delete_message"> Sind Sie sicher zu löschen? \u0020</string>
+
+
+
+
+</resources>

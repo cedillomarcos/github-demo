@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="red">#77ff0000</color>
+<color name="yellow">#fffff000</color>
+<color name="white">#ffffffff</color>
+<color name="black">#aa000000</color>
+<color name="citylistcolor">#ff443f3b</color>
+ <color name="humidityandwindscolorb">#88222222</color>
+    <color name="humidityandwindscolor">#757575</color>
+    <color name="settinglowcolor">#21517a</color>
+    <color name="settinghighcolor">#7a0022</color>
+    <color name="lowwhite">#ff444444</color>
+    <drawable   name="bg4">#00000000</drawable>
+	<drawable name="translucent_background">#55000000</drawable>
+	
+	<drawable name="translucentabsolute_background">#22000000</drawable>
+   <color name="citylistitem">#ff3e3e3e</color>
+   <color name="temperature">#aa000000</color>
+   <color name="unit">#aa000000</color>
+   <color name="city">#76000000</color>
+   <color name="data">#aa000000</color>
+   <color name="description">#aa000000</color>
+   <color name="flush">#4b403c</color>   
+   <drawable name="weathersetting">#ffffffff</drawable>
+   <color name="settingline">#22900000</color>
+   <color name="aphwhite">#adffffff</color>
+   <color name="aphwhite1">#66ffffff</color>
+	<color name="testcolor1">#fff6f2f6</color>
+	<color name="testcolor2">#fffff000</color>
+	<color name="testcolor3">#000000</color>
+	<color name="testcolor4">#ffffff</color>
+	<color name="testcolor5">#4682B4</color>
+	<color name="testcolor6">#000000</color>
+	<color name="testcolor7">#ffffffff</color>
+	<color name="testcolor8">#ff000000</color>
+	<color name="testcolor9">#e00eee</color>
+	<color name="testcolor10">#323232</color>
+	<color name="a">#80323232</color>
+	<color name="hi">#808080</color>
+	<color name="ba">#ffffffff</color>
+	<color name="bright_foreground_light">#ff000000</color>
+	<color name="bright_foreground_light_inverse">#ffffffff</color>
+	<color name="bright_foreground_light_disabled">#80000000</color>
+	<color name="dim_foreground_light">#323232</color>
+	<color name="dim_foreground_light_disabled">#80323232</color>
+	<color name="dim_foreground_light_inverse">#bebebe</color>
+	<color name="dim_foreground_light_inverse_disabled">#80bebebe</color>
+	<color name="hint_foreground_light">#808080</color>
+	<color name="magic_flame">#00000000</color>
+	<color name="button_text">#ffffffff</color>
+</resources>

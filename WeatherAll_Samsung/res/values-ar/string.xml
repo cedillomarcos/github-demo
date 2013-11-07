@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- 44种天气的描述信息 -->
+	<string name="icon1">مشمس</string>
+	<string name="icon2">غائم جزئيا</string>
+	<string name="icon3">مشمس جزئيا</string>
+	<string name="icon4">غيوم متقطعة</string>
+	<string name="icon5">ضبابي الشمس المشرقة</string>
+	<string name="icon6">غائم جزئيا</string>
+	<string name="icon7">غائم</string>
+	<string name="icon8">كئيب</string>
+	<string name="icon9">غير معروف</string>
+	<string name="icon10">غير معروف</string>
+	<string name="icon11">ضباب</string>
+	<string name="icon12">زخات المطر</string>
+	<string name="icon13">غائم جزئيا مع زخات المطر</string>
+	<string name="icon14">مشمس جزئيا مع زخات المطر</string>
+	<string name="icon15">عواصف رعدية</string>
+	<string name="icon16">غائم جزئيا مع زخات المطر الرعد</string>
+	<string name="icon17">مشمس جزئيا مع زخات المطر الرعد</string>
+	<string name="icon18">مطر</string>
+	<string name="icon19">هبات</string>
+	<string name="icon20">غائم جزئيا مع هبوب رياح</string>
+	<string name="icon21">مشمس جزئيا مع هبوب رياح</string>
+	<string name="icon22">ثلج</string>
+	<string name="icon23">غائم جزئيا مع سنو</string>
+	<string name="icon24">جليد</string>
+	<string name="icon25">مطر متجمد</string>
+	<string name="icon26">أمطار متجمدة</string>
+	<string name="icon27">غير معروف</string>
+	<string name="icon28">غير معروف</string>
+	<string name="icon29">لأمطار والثلوج المختلطة</string>
+	<string name="icon30">حار</string>
+	<string name="icon31">بار</string>
+	<string name="icon32">عاصف</string>
+	<string name="icon33">مسح</string>
+	<string name="icon34">واضح في معظمه</string>
+	<string name="icon35">غائم جزئ</string>
+	<string name="icon36">غيوم متق</string>
+	<string name="icon37">ضباب</string>
+	<string name="icon38">غائم جزئ</string>
+	<string name="icon39">غائم جزئيا مع زخات الم</string>
+	<string name="icon40">غائم جزئيا مع زخات ال</string>
+	<string name="icon41">غائم جزئيا مع زخات المطر الرعد</string>
+	<string name="icon42">غائم جزئيا مع زخات المطر ا</string>
+	<string name="icon43">غائم جزئيا مع هبوب </string>
+	<string name="icon44">غائم جزئيا مع </string>
+	
+	<!--星期的名称-->
+	 <string-array name="weeknames">
+	    <item>en</item>
+        <item>الأحد\u0020\u0020\u0020</item>
+        <item>يوم الاثن\u0020\u0020\u0020</item>
+        <item>الثلاثاء\u0020\u0020\u0020</item>
+        <item>الأربعاء\u0020\u0020\u0020</item>
+        <item>الخميس\u0020\u0020\u0020</item>
+        <item>الجمعة\u0020\u0020\u0020</item>
+        <item>السبت\u0020\u0020\u0020</item>
+     </string-array>
+     
+ 	<!--高低温简称-->
+    <string name="h">ارتفا:</string>
+    <string name="l">منخفض:</string>     
+ <!--设为本地城市-->   
+ <string name="setcity">تعيين إلى المدين</string>
+ <!--提示城市设置成功-->    
+	 <string name="set">تعيين مدينة ا</string>
+<!--提示输入城市名-->	 
+ <string name="citysearchinfo">إدخال اسم المدينة باللغة الإن</string>
+ 
+<!--当前城市-->	
+  <string name="currentcity">المدينة الحال:</string>
+<!--弹框提示信息-->	
+    <string name="alert_dialog_city_noinput">إدخال اسم المدينة في اللغة الإن!</string>
+<!--对话框标题-->	    
+    <string name="alert_dialog_city_list">حدد لك مدين</string>
+<!--没搜到城市 -->    
+    <string name="alert_dialog_city_not_found">مدينة لم يتم العث</string>
+ <!--确定 -->   
+    <string name="alert_dialog_ok">موافق</string>
+ <!--正在搜索城市-->       
+    <string name="progress_search_city">تبحث عن المدي ...</string>
+<!--添加城市 -->    
+    <string name="addcity">إضافة Ctiy و</string>
+ <!--确定 -->     
+    <string name="add_ok">موافق</string>
+<!--取消 -->    
+    <string name="add_cancel">إلغاء</string>
+    
+<!--应用名称 -->      
+<string name="app_name">عاطفة الطقس</string>
+
+    <string name="delete_warning">تحذي</string>
+    <string name="delete_message">هل أنت متأكد من حذ \u0020</string>
+
+<!-- add -->
+     <string name="c_hint">输入中文地名</string>	
+    <string name="netbusy">شبكة مشغول، حاول في !</string>
+    <string name="chinanet_failed">الحصول على الطقس فشل، والت ...</string>
+    <string name="failedget">الحصول على معلومات ف!</string>
+
+    <string name="nonet">لا صا</string>
+    <string name="cloud">متقطع الغيم</string>
+    <string name="demotime">الأربعاء 24 ي</string>
+   <string-array name="monthnames">
+        <item>يناي\u0020\u0020\u0020</item>
+        <item>فبراير\u0020\u0020\u0020</item>
+        <item>مسيرة\u0020\u0020\u0020</item>
+        <item>أبريل\u0020\u0020\u0020</item>
+        <item>قد\u0020\u0020\u0020</item>
+        <item>يونيو\u0020\u0020\u0020</item>
+        <item>يوليو\u0020\u0020\u0020</item>
+        <item>أغسطس\u0020\u0020\u0020</item>
+        <item>سبتمبر\u0020\u0020\u0020</item>
+        <item>تشرين الأول\u0020\u0020\u0020</item>
+        <item>تشرين الثان\u0020\u0020\u0020</item>
+        <item>ديسمبر\u0020\u0020\u0020</item>
+    </string-array>
+    <string name="loading">تحميل ...</string>
+    <string name="menu_acu">الخارجية الصافي</string>
+    <string name="menu_cen">الصين صافي</string>
+    <string name="aboutt">حول</string>   
+    <string name="flush">تدفق</string>
+    <string name="menu_info">البيانات الحالية، وفقا للمصدر!</string>
+    <string name="menu_acuu">الآن: acuuweather مصدر البيانات!</string>
+    <string name="menu_cent">الآن: الجهاز المركزي للأرصاد الجوية مصدر البيا</string><!-- midify by xia 0614 -->
+    <string name="china">الصين</string>   
+    <string name="about">\n1. في حالة الشبكات غير، يتم عرض معلومات الطقس وبيانات الطقس من الشبكات الناجحة الماضي.
+\n2.  انقر على زر "المدينة" إلى التحول إلى مدن أخرى.
+\n3.  مواقع أجنبية، وذلك بسبب بناء جزء من المدينة الخارجية، التي تريد أن تتحول إلى مدن أخرى في مربع الإدخال، أدخل
+
+الاسم الانكليزي للمدينة. \n
+4. المواقع المحلية، والدخول مباشرة اسم المدينة الصينية في القائمة، حدد المدينة التي تريد أن تتحول، يمكنك. \ ن \n
+5. ويمكن الاستعلام عن موقع المحلي فقط والطقس المحلي مدينة المعلومات؛ الأجنبية مواقع الدول والمدن الداخلية والخارجية يمكن
+
+الاستعلام عن المدن الداخلية أكثر دقة مع المواقع المحلية. \ ن \n
+6.  باستخدام شبكة واي فاي سرعة الوصول إلى المعلومات المتعلقة بالطقس.
+</string>
+
+    
+    
+    
+</resources>
+
+

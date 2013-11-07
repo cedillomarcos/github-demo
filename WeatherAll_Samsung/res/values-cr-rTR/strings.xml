@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+<!-- 44种天气的描述信息 -->
+	<string name="icon1">güneşli</string>
+	<string name="icon2">Parçalı Bulutlu</string>
+	<string name="icon3">Parçalı Bulutlu</string>
+	<string name="icon4">Aralıklı Bulutlar</string>
+	<string name="icon5">Hazy Güneşli</string>
+	<string name="icon6">Parçalı Bulutlu</string>
+	<string name="icon7">bulutlu</string>
+	<string name="icon8">kasvetli</string>
+	<string name="icon9">bilinmeyen</string>
+	<string name="icon10">bilinmeyen</string>
+	<string name="icon11">sis</string>
+	<string name="icon12">duşlar</string>
+	<string name="icon13">Duşlar ile Parçalı Bulutlu</string>
+	<string name="icon14">Duşlar ile Güneşli</string>
+	<string name="icon15">Fırtınalara</string>
+	<string name="icon16">Thunder Duşlar Parçalı Bulutlu</string>
+	<string name="icon17">Thunder Duşlar Güneşli</string>
+	<string name="icon18">yağmur</string>
+	<string name="icon19">Mevzii</string>
+	<string name="icon20">Mevzii ile Parçalı Bulutlu</string>
+	<string name="icon21">Mevzii ile Güneşli</string>
+	<string name="icon22">kar</string>
+	<string name="icon23">Snow ile beraber Parçalı Bulutlu</string>
+	<string name="icon24">buz</string>
+	<string name="icon25">karla karışık yağmur</string>
+	<string name="icon26">Dondurucu Yağmur</string>
+	<string name="icon27">bilinmeyen</string>
+	<string name="icon28">bilinmeyen</string>
+	<string name="icon29">Yağmur ve Karışık Kar</string>
+	<string name="icon30">sıcak</string>
+	<string name="icon31">soğuk</string>
+	<string name="icon32">rüzgârlı</string>
+	<string name="icon33">açık</string>
+	<string name="icon34">Çoğunlukla Temizle</string>
+	<string name="icon35">Parçalı Bulutlu</string>
+	<string name="icon36">Aralıklı Bulutlar</string>
+	<string name="icon37">puslu</string>
+	
+	<string name="icon38">Parçalı Bulutlu</string>
+	<string name="icon39">Duşlar ile Parçalı Bulutlu</string>
+	<string name="icon40">Duşlar ile Parçalı Bulutlu</string>
+	<string name="icon41">Thunder Duşlar Parçalı Bulutlu</string>
+	<string name="icon42">Thunder Duşlar Parçalı Bulutlu</string>
+	<string name="icon43">Mevzii ile Parçalı Bulutlu</string>
+	<string name="icon44">Snow ile beraber Parçalı Bulutlu</string>
+	
+	<!--星期的名称-->
+	 <string-array name="weeknames">
+	    <item>Pazar</item>
+        <item>Pazar</item>
+        <item>Pazartesi</item>
+        <item>Salı</item>
+        <item>Çarşamba</item>
+        <item>Perşembe</item>
+        <item>Cuma</item>
+        <item>Cumartesi</item>
+     </string-array>
+     
+ 	<!--高低温简称-->
+    <string name="h">Y:</string>
+    <string name="l">D:</string>     
+ <!--设为本地城市-->   
+ <string name="setcity">Yerel şehir ayarlayın</string>
+ <!--提示城市设置成功-->    
+	 <string name="set">Şehir Set Başarı!</string>
+<!--提示输入城市名-->	 
+ <string name="citysearchinfo">giriş şehir adı</string>
+ 
+<!--当前城市-->	
+  <string name="currentcity">Şu anki şehri</string>
+<!--弹框提示信息-->	
+    <string name="alert_dialog_city_noinput">giriş şehir adı lütfen!</string>
+<!--对话框标题-->	    
+    <string name="alert_dialog_city_list">Size şehir seçin</string>
+<!--没搜到城市 -->    
+    <string name="alert_dialog_city_not_found">Şehir bulundu değil</string>
+ <!--确定 -->   
+    <string name="alert_dialog_ok">Tamam</string>
+ <!--正在搜索城市-->       
+    <string name="progress_search_city">Şehir aranıyor ...</string>
+<!--添加城市 -->    
+    <string name="addcity">şehir eklemek</string>
+ <!--确定 -->     
+    <string name="add_ok">Tamam</string>
+<!--取消 -->    
+    <string name="add_cancel">İPTAL</string>
+    
+<!--应用名称 -->      
+<string name="app_name">Duygu Hava Durumu</string>
+    <string name="delete_warning">uyarı </string>
+    <string name="delete_message">Silmek emin olabilirsiniz?\u0020</string>
+    
+<!--add by xia for multi language -->   
+
+
+</resources>

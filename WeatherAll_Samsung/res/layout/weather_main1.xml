@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="424px"
+    android:layout_height="370px"  
+    android:id="@+id/styletwo"  
+    >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+         android:id="@+id/style2_info_frame"
+   	     android:layout_width="fill_parent"
+   	     android:layout_height="fill_parent"
+   	     android:orientation="vertical"
+   	     android:background="@color/testcolor4" 	     
+         > 
+		
+		 <LinearLayout
+		      android:layout_width="224px"
+		      android:layout_height="110px"
+		      android:layout_marginTop="60px"
+		      android:layout_marginLeft="180px"
+		      android:background="@color/testcolor1"
+		      android:orientation="vertical">	
+			  <TextView				   
+				    android:id="@+id/temperature2"									      
+				    android:layout_width="110px"
+				    android:layout_height="40px"
+				    android:textColor="@color/description"
+				    android:textSize = "25px"				   
+				    android:gravity="center"
+				    android:text="@string/temperature"
+				    android:layout_marginTop="0px"
+				    android:layout_marginLeft="90px"/>
+			  <ImageView
+			       android:id="@+id/city_pre"
+			       android:layout_width="13px"
+			       android:layout_height="10px"
+			       android:layout_marginLeft="180px"
+			       android:layout_marginTop="20px"
+			       android:background="@color/description"/>
+			  <LinearLayout
+			      android:layout_width="224px"
+			      android:layout_height="25px"
+			      android:layout_marginTop="0px"
+			      android:layout_marginLeft="0px">	
+			       <TextView				   
+					    android:id="@+id/city2"									      
+					    android:layout_width="80px"
+					    android:layout_height="25px"
+					    android:textColor="@color/description"
+					    android:textSize = "10px"
+					    android:text="@string/city"				    
+					    android:gravity="center"
+					    android:layout_marginLeft="30px"/>
+				     <TextView				   
+					    android:id="@+id/curent_city"	
+					    android:text="@string/temp"										      
+					    android:layout_width="50px"
+					    android:layout_height="25px"
+					    android:textColor="@color/description"
+					    android:textSize = "10px"
+					    android:layout_marginLeft="65px"
+				     />	
+		       </LinearLayout>		
+			  <ImageView
+			       android:id="@+id/city_next"
+			       android:layout_width="13px"
+			       android:layout_height="10px"
+			       android:layout_marginLeft="180px"
+			       android:background="@color/description"/>
+		  </LinearLayout>				     
+		 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   	          android:layout_width="fill_parent"
+   	          android:layout_height="50px" 
+   	          android:layout_marginLeft="0px"
+   	          android:orientation="horizontal"
+   	          android:background="@color/testcolor9"> 
+				<TextView				   
+				    android:id="@+id/today"									      
+				    android:layout_width="85px"
+				    android:layout_height="50px"
+				    android:textColor="@color/description"
+				    android:textSize = "25px"
+				    android:textStyle="bold"
+				    android:text="@string/today"				    
+				    android:gravity="center"
+				    android:layout_marginLeft="0px"/>
+				 <TextView				   
+				    android:id="@+id/week1"									      
+				    android:layout_width="85px"
+				    android:layout_height="50px"
+				    android:textColor="@color/description"
+				    android:textSize = "25px"
+				    android:textStyle="bold"
+				    android:text="@string/week1"				    
+				    android:gravity="center"
+				    android:layout_marginLeft="0px"/>
+				 <TextView			   
+				    android:id="@+id/week2"									      
+				    android:layout_width="85px"
+				    android:layout_height="50px"
+				    android:textColor="@color/description"
+				    android:textSize = "25px"
+				    android:textStyle="bold"
+				    android:text="@string/week2"				    
+				    android:gravity="center"
+				    android:layout_marginLeft="0px"/>
+				 <TextView				   
+				    android:id="@+id/week3"									      
+				    android:layout_width="85px"
+				    android:layout_height="50px"
+				    android:textColor="@color/description"
+				    android:textSize = "25px"
+				    android:textStyle="bold"
+				    android:text="@string/week3"				    
+				    android:gravity="center"
+				    android:layout_marginLeft="0px"/>
+				 <TextView				   
+				    android:id="@+id/week4"									      
+				    android:layout_width="85px"
+				    android:layout_height="50px"
+				    android:textColor="@color/description"
+				    android:textSize = "25px"
+				    android:textStyle="bold"
+				    android:text="@string/week4"				    
+				    android:gravity="center"
+				    android:layout_marginLeft="0px"/> 
+		  </LinearLayout> 
+		  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   	          android:layout_width="fill_parent"
+   	          android:layout_height="170px" 
+   	          android:layout_marginLeft="0px"
+   	          android:orientation="horizontal"
+   	          android:background="@color/testcolor9"> 
+   	          <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   	              android:layout_width="82px"
+   	              android:layout_height="145px" 
+   	              android:orientation="vertical"
+   	              android:layout_marginLeft="3px"
+   	              android:background="@color/testcolor5"> 
+				   <TextView				   
+					    android:id="@+id/htempreature_today"									      
+					    android:layout_width="fill_parent"
+					    android:layout_height="35px"
+					    android:textColor="@color/description"
+					    android:textSize = "25px"
+					    android:textStyle="bold"
+					    android:text="@string/temperature"				    
+					    android:gravity="center"
+					   />
+					 <ImageView
+				        android:layout_width="fill_parent"
+				        android:layout_height="60px"
+				        android:id="@+id/icon_today"
+				        android:src = "@drawable/accu_302"/>  
+				   <TextView				   
+					    android:id="@+id/ltempreature_today"									      
+					    android:layout_width="fill_parent"
+					    android:layout_height="35px"
+					    android:textColor="@color/description"
+					    android:textSize = "25px"
+					    android:textStyle="bold"
+					    android:text="@string/temperature"				    
+					    android:gravity="center"
+					   />
+				   </LinearLayout>   
+				   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	   	              android:layout_width="82px"
+	   	              android:layout_height="145px" 
+	   	              android:orientation="vertical"
+	   	              android:layout_marginLeft="3px"
+	   	              android:background="@color/testcolor5"> 
+					   <TextView				   
+						    android:id="@+id/htempreature_next1"									      
+						    android:layout_width="fill_parent"
+						    android:layout_height="35px"
+						    android:textColor="@color/description"
+						    android:textSize = "25px"
+						    android:textStyle="bold"
+						    android:text="@string/temperature"				    
+						    android:gravity="center"
+						   />
+						 <ImageView
+					        android:layout_width="fill_parent"
+					        android:layout_height="60px"
+					        android:id="@+id/icon_next1"
+					        android:src = "@drawable/accu_302"/>  
+					   <TextView				   
+						    android:id="@+id/ltempreature_next1"									      
+						    android:layout_width="fill_parent"
+						    android:layout_height="35px"
+						    android:textColor="@color/description"
+						    android:textSize = "25px"
+						    android:textStyle="bold"
+						    android:text="@string/temperature"				    
+						    android:gravity="center"
+						   />
+				   </LinearLayout>   
+				    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	   	              android:layout_width="82px"
+	   	              android:layout_height="145px" 
+	   	              android:orientation="vertical"
+	   	              android:layout_marginLeft="3px"
+	   	              android:background="@color/testcolor5"> 
+					   <TextView				   
+						    android:id="@+id/htempreature_next2"									      
+						    android:layout_width="fill_parent"
+						    android:layout_height="35px"
+						    android:textColor="@color/description"
+						    android:textSize = "25px"
+						    android:textStyle="bold"
+						    android:text="@string/temperature"				    
+						    android:gravity="center"
+						   />
+						 <ImageView
+					        android:layout_width="fill_parent"
+					        android:layout_height="60px"
+					        android:id="@+id/icon_next2"
+					        android:src = "@drawable/accu_302"/>  
+					   <TextView				   
+						    android:id="@+id/ltempreature_next2"									      
+						    android:layout_width="fill_parent"
+						    android:layout_height="35px"
+						    android:textColor="@color/description"
+						    android:textSize = "25px"
+						    android:textStyle="bold"
+						    android:text="@string/temperature"				    
+						    android:gravity="center"
+						   />
+				   </LinearLayout>  
+				    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	   	              android:layout_width="82px"
+	   	              android:layout_height="145px" 
+	   	              android:orientation="vertical"
+	   	              android:layout_marginLeft="3px"
+	   	              android:background="@color/testcolor5"> 
+					   <TextView				   
+						    android:id="@+id/htempreature_next3"									      
+						    android:layout_width="fill_parent"
+						    android:layout_height="35px"
+						    android:textColor="@color/description"
+						    android:textSize = "25px"
+						    android:textStyle="bold"
+						    android:text="@string/temperature"				    
+						    android:gravity="center"
+						   />
+						 <ImageView
+					        android:layout_width="fill_parent"
+					        android:layout_height="60px"
+					        android:id="@+id/icon_next3"
+					        android:src = "@drawable/accu_302"/>  
+					   <TextView				   
+						    android:id="@+id/ltempreature_next3"									      
+						    android:layout_width="fill_parent"
+						    android:layout_height="35px"
+						    android:textColor="@color/description"
+						    android:textSize = "25px"
+						    android:textStyle="bold"
+						    android:text="@string/temperature"				    
+						    android:gravity="center"
+						   />
+				   </LinearLayout>  
+				    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	   	              android:layout_width="82px"
+	   	              android:layout_height="145px" 
+	   	              android:orientation="vertical"
+	   	              android:layout_marginLeft="3px"
+	   	              android:background="@color/testcolor5"> 
+					   <TextView				   
+						    android:id="@+id/htempreature_next4"									      
+						    android:layout_width="fill_parent"
+						    android:layout_height="35px"
+						    android:textColor="@color/description"
+						    android:textSize = "25px"
+						    android:textStyle="bold"
+						    android:text="@string/temperature"				    
+						    android:gravity="center"
+						   />
+						 <ImageView
+					        android:layout_width="fill_parent"
+					        android:layout_height="60px"
+					        android:id="@+id/icon_next4"
+					        android:src = "@drawable/accu_302"/>  
+					   <TextView				   
+						    android:id="@+id/ltempreature_next4"									      
+						    android:layout_width="fill_parent"
+						    android:layout_height="35px"
+						    android:textColor="@color/description"
+						    android:textSize = "25px"
+						    android:textStyle="bold"
+						    android:text="@string/temperature"				    
+						    android:gravity="center"
+						   />
+				   </LinearLayout>  
+		  </LinearLayout> 
+    </LinearLayout> 
+    <ImageView
+         android:layout_width="190px"
+         android:layout_height="175px"
+         android:id="@+id/style2_icon"
+         />
+</FrameLayout>
+
+<!--
+android:src = "@drawable/accu_101"
+ android:background="@drawable/flush"  android:text="@string/description"-->  

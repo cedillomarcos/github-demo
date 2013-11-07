@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+	
+<!--  <LinearLayout android:id="@+id/setalert_Ly"
+		android:layout_width="wrap_content"
+		android:layout_height="60px" 
+		android:focusable="true">
+		-->
+		<Button  
+	        android:id="@+id/worningicon"
+		    android:layout_width="32px" 
+		    android:layout_height="32px"
+		    android:layout_gravity="center_vertical"
+		    android:layout_marginLeft="9px"
+		    android:layout_marginRight="6px"
+		    ></Button>
+		
+		<TextView android:id="@+id/setalert_name"
+			android:layout_width="618px" 
+			android:layout_height="wrap_content"
+			android:gravity="left" 
+			android:layout_gravity="center_vertical" 
+			android:textSize="20px"
+			android:textColor="#ffffff">
+			</TextView>
+<!--  	</LinearLayout>    -->	
+</LinearLayout>

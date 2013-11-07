@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="346dp"
+	android:layout_height="232dp"
+	
+	>
+    <!--后面的背景 -->
+    
+	<ImageView 
+	    android:id="@+id/bigback"
+		android:layout_width="fill_parent"
+		android:layout_height="200dp" 
+		android:layout_alignParentTop="true"
+		android:background="@drawable/clock_add_weather_base">
+	</ImageView>
+	<ImageView 
+	    android:id="@+id/forback"
+		android:layout_width="fill_parent"
+		android:layout_height="200dp" 
+		android:layout_alignBottom="@id/bigback"
+		android:background="@drawable/weather_bg_sunny_day_land">
+	</ImageView>	
+	<ImageView 
+	    android:id="@+id/threeback"
+		android:layout_width="fill_parent"
+		android:layout_height="200dp" 
+		android:layout_alignBottom="@id/bigback"
+		android:background="@drawable/weather_bg_sunny_day_land">
+	</ImageView>	
+	
+	
+	
+	<ImageView 
+	   
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:layout_alignBottom="@id/bigback"
+		android:layout_alignLeft="@id/bigback"	
+		android:layout_marginLeft="12dp"	
+		android:layout_marginBottom="12dp"
+		android:background="@drawable/accuweather_logo">
+	</ImageView>	
+	<!--	<LinearLayout 
+        android:layout_width="fill_parent"
+		android:layout_height="216px">
+	    <TextView 
+		    android:layout_marginTop="0dp"
+		    
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 			
+			android:textColor = "@color/white"
+			android:textSize="65dp"
+			android:text="17:53" 
+			android:background="#ff00ff00"/>
+	</LinearLayout>
+    数字时钟 -->
+	<LinearLayout 
+		android:layout_width="fill_parent"
+		android:layout_height="216px" 
+		android:orientation="vertical"
+		android:layout_marginTop="10dp">		
+	<!--	<TextView 
+		    android:id="@+id/time"			
+		    android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 	
+			android:layout_marginTop="-5dp"		
+			android:textColor = "@color/white"
+			android:textSize="80dp"
+			android:text="17:53" 
+			android:gravity="center_horizontal"
+			/>
+		<TextView 	
+		    android:id="@+id/d" 	    
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:layout_marginTop="-15dp"			
+			android:textColor = "@color/white"
+			android:textSize="22dp"
+			android:text="6月25日 周五" 
+			android:gravity="center_horizontal"
+			/>
+			-->
+
+			<LinearLayout 
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center">"
+				<ImageView 
+				    android:layout_marginLeft="40dp"
+					android:id="@+id/t1" 					
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" 					
+					android:src="@drawable/flip_1" />
+				<ImageView 
+					android:id="@+id/t2" 
+					android:src="@drawable/flip_0"					
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" 
+					 />
+				 <ImageView 					
+					android:src="@drawable/flip_d"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					/>
+				 <ImageView android:id="@+id/t3"					
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" 
+					android:src="@drawable/flip_2" />
+				<ImageView android:id="@+id/t4" 					
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" 
+					android:src="@drawable/flip_3" />
+				<TextView 
+					android:id="@+id/t5" 					
+					android:layout_marginLeft="0dp"
+					android:layout_marginTop="13dp" 
+					android:textSize="20dp"
+					android:textColor="@color/white"
+					android:layout_width="45dp"
+					android:layout_height="25dp"></TextView>
+			</LinearLayout>
+		   <TextView 	
+			    android:id="@+id/d" 	    
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content" 
+				android:layout_marginTop="-3dp"			
+				android:textColor = "@color/white"
+				android:textSize="22dp"				
+				android:gravity="center_horizontal"
+			    />
+	</LinearLayout>
+
+<!--中间的天气图标 -->
+	<!--android:background="@drawable/accu_101" android:background="@drawable/accu_301" 
+		android:background="@drawable/accu_301" -->
+	<FrameLayout 
+		android:id="@+id/icon" 
+		android:layout_width="250dp"
+		android:layout_height="150dp" 
+		android:layout_centerHorizontal="true"
+		android:layout_alignParentBottom="true" 
+		>
+	</FrameLayout>
+	<!-- 左下角的城市与天气描述 -->
+	<LinearLayout 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentBottom="true" 
+		android:orientation="vertical"
+		android:layout_marginLeft="10dp" 
+		android:layout_marginBottom="55dp">
+			<TextView 	
+			    android:id="@+id/t"	 
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" 
+				android:textColor = "@color/white"
+				android:textSize="45dp" 
+				android:layout_marginLeft="0dp"
+				android:layout_marginBottom="5dp"
+				/>
+			<TextView 
+				android:layout_marginTop="-13dp"
+				android:id="@+id/h" 			
+				android:layout_width="130dip"
+				android:textColor = "@color/white"
+				android:layout_height="wrap_content" 
+				android:layout_marginLeft="5dp"
+				android:text="@string/loading" >
+			</TextView>
+	</LinearLayout>
+
+   <!-- 右下角的日期与温度 -->
+	<TextView android:textSize="13dp"
+		android:id="@+id/l" 
+		android:textColor = "@color/white"
+		android:layout_width="wrap_content"
+		android:minWidth="28dp"
+		android:layout_height="wrap_content" 
+		android:layout_alignParentRight="true"
+		android:layout_alignParentBottom="true" 
+		android:layout_marginRight="13dp"
+		android:layout_marginBottom="41dp"
+        android:text="@string/lt"
+		android:gravity="right"></TextView>
+
+	<TextView android:textSize="13dp"
+	    android:id="@+id/cloud"		
+		android:layout_marginRight="13dp"
+		android:textColor = "@color/white"
+		android:layout_width="wrap_content"
+		android:minWidth="28dp"
+		android:gravity="right"
+		android:layout_marginBottom="3dp"
+		android:layout_height="wrap_content" 
+		android:layout_alignParentRight="true"
+		android:layout_above="@id/l" 
+		android:text="@string/ht" />
+
+
+	<TextView android:textSize="13dp"
+		android:id="@+id/city" 
+		android:layout_marginRight="13dp"
+		android:textColor = "@color/white"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:text="@string/demotime"
+		android:layout_above="@id/cloud"
+		android:layout_alignParentRight="true" />
+	<ImageView 
+			android:id="@+id/t8" 
+			android:layout_marginRight="10dp"
+			android:layout_width="55dp"
+			android:layout_height="55dp" 
+			android:src="@drawable/common_m_weather_03"
+			android:layout_above="@id/city"
+			android:layout_alignParentRight="true"
+			/> 
+</RelativeLayout>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    History:
+    1.zhengguo.xia@ragentek 20120522 BUG_ID:GWLESW-116
+    	Description: set shenzhen default city.
+-->
+<resources>
+
+    <string name="chinanet_failed">獲取天氣失敗，請檢查網絡...</string>
+    <string name="hebei">河北省</string>
+    <string name="shanxi">山西省</string>
+    <string name="liaoning">辽宁省</string>
+    <string name="heilungkiang">黑龙江省</string>
+    <string name="jiangsu">江苏省</string>
+    <string name="zhejiang">浙江省</string>
+    <string name="anhui">安徽省</string>
+    <string name="fujian">福建省</string>
+    <string name="jiangxi">江西省</string>
+    <string name="shandong">山东省</string>
+    <string name="henan">河南省</string>
+    <string name="hubei">湖北省</string>
+    <string name="hunan">湖南省</string>
+    <string name="guangdong">广东省</string>
+    <string name="hainan">海南省</string>
+    <string name="sichuan">四川省</string>
+    <string name="guizhou">贵州省</string>
+    <string name="yunnan">云南省</string>
+    <string name="shaanxi">陕西省</string>
+    <string name="gansu">甘肃省</string>
+    <string name="qinghai">青海省</string>
+    <string name="taiwan">台湾省</string>
+    <string name="inner">内蒙古自治区</string>
+    <string name="guangxi">广西壮族自治区</string>
+    <string name="ningxia">宁夏回族自治区</string>
+    <string name="xinjiang">新疆维吾尔自治区</string>
+    <string name="xizang">西藏自治区</string>
+    <string name="macao">澳门特别行政区</string>
+    <!-- 44种天气的描述信息 -->
+    <string name="icon1">晴朗</string>
+    <string name="icon2">以晴為主</string>
+    <string name="icon3">部份時間有陽光</string>
+    <string name="icon4">有雲</string>
+    <string name="icon5">朦朧的陽光</string>
+    <string name="icon6">多雲</string>
+    <string name="icon7">天色大致良好</string>
+    <string name="icon8">沉悶的</string>
+    <string name="icon9">未知</string>
+    <string name="icon10">未知</string>
+    <string name="icon11">霧</string>
+    <string name="icon12">驟雨</string>
+    <string name="icon13">多雲有驟雨</string>
+    <string name="icon14">有陽光並有驟雨</string>
+    <string name="icon15">雷暴</string>
+    <string name="icon16">多雲雷暴</string>
+    <string name="icon17">有陽光並有雷雨</string>
+    <string name="icon18">有雨</string>
+    <string name="icon19">小雪</string>
+    <string name="icon20">多雲與小雪</string>
+    <string name="icon21">部份時間有陽光與小雪</string>
+    <string name="icon22">雪</string>
+    <string name="icon23">多雲有雪</string>
+    <string name="icon24">冰</string>
+    <string name="icon25">雨雪</string>
+    <string name="icon26">凍雨</string>
+    <string name="icon27">未知</string>
+    <string name="icon28">未知</string>
+    <string name="icon29">雨和雪混合</string>
+    <string name="icon30">熱</string>
+    <string name="icon31">冷</string>
+    <string name="icon32">有風</string>
+    <string name="icon33">清除</string>
+    <string name="icon34">大多清除</string>
+    <string name="icon35">晴間多雲</string>
+    <string name="icon36">有雲</string>
+    <string name="icon37">朦朧</string>
+    <string name="icon38">多雲</string>
+    <string name="icon39">晴間多雲，有驟雨</string>
+    <string name="icon40">多雲有驟雨</string>
+    <string name="icon41">晴間多雲有雷雨</string>
+    <string name="icon42">多雲雷暴</string>
+    <string name="icon43">多雲與小雪</string>
+    <string name="icon44">多雲有雪</string>
+
+    <!-- 星期的名称 -->
+    <string-array name="weeknames">
+        <item>zh</item>
+        <item>週日</item>
+        <item>週一</item>
+        <item>週二</item>
+        <item>週三</item>
+        <item>週四</item>
+        <item>週五</item>
+        <item>週六</item>
+    </string-array>
+
+    <!-- 高低温简称 -->
+    <string name="h">高:</string>
+    <string name="l">低:</string>
+    <!-- 设为本地城市 -->
+    <string name="setcity">設為本地城市</string>
+    <!-- 提示城市设置成功 -->
+    <string name="set"> 城市設置成功</string>
+    <!-- 提示输入城市名 -->
+    <string name="citysearchinfo">輸入城市拼音</string>
+
+    <!-- 当前城市 -->
+    <string name="currentcity">當前城市:</string>
+    <!-- 弹框提示信息 -->
+    <string name="alert_dialog_city_noinput">請輸入城市名稱!</string>
+    <!-- 对话框标题 -->
+    <string name="alert_dialog_city_list">選擇你的城市</string>
+    <!-- 没搜到城市 -->
+    <string name="alert_dialog_city_not_found">城市沒有發現</string>
+    <!-- 确定 -->
+    <string name="alert_dialog_ok">確定</string>
+    <!-- 正在搜索城市 -->
+    <string name="progress_search_city">搜索城市...</string>
+    <!-- 添加城市 -->
+    <string name="addcity">添加 城市</string>
+    <!-- 确定 -->
+    <string name="add_ok">確定</string>
+    <!-- 取消 -->
+    <string name="add_cancel">取消</string>
+
+    <!-- 应用名称 -->
+    <string name="app_name">天氣預報</string>
+    <string name="delete_warning">警告</string>
+    <string name="delete_message">確定删除吗？\u0020</string>
+    <string name="loading">載入中...</string>
+    <string name="menu_acu">國外網站</string>
+    <string name="menu_cen">國內網站</string>
+    <string name="aboutt">關於</string>
+    <string name="flush">刷新</string>
+    <string name="menu_info">已經是當前的數據源了！</string>
+    <string name="menu_acuu">國外數據源！</string>
+    <string name="menu_cent">國內數據源！</string>
+    <string name="china">中国</string>
+ <string name="about">\n1. 在未連網的情況下， 天氣信息顯示為:上次成功連網的天氣數據。\n
+                  2. 點擊“城市”按鈕，可切換其它城市。\n
+                  3. 國外網站，因為只內置了部分的國外城市，要切換到別的城市，要在輸入框中，輸入城市的英文名，
+再點左上角的搜索圖標， 在搜索到的列表選擇要切換的城市，即可。\n
+                  4. 國內網站，直接輸入中文城市名，在列表中選擇要切換的城市，即可。\n
+                  5. 國內網站只能查詢國內城市天氣信息;國外網站，國內外城市都可以查詢，國內城市用國內網站更準確。\n
+                  6. 用wifi網絡能更快獲取天氣信息。
+ </string>
+
+<!-- modify  BUG_ID:GWLESW-116 xiazhengguo  20120522(off) --> 
+</resources>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- 44种天气的描述信息 -->
+	<string name="icon1">nắng</string>
+	<string name="icon2">WEB</string>
+	<string name="icon3">Một phần Nắng</string>
+	<string name="icon4">liên tục Mây</string>
+	<string name="icon5">hazy Sunshine</string>
+	<string name="icon6">Trời nhiều mây</string>
+	<string name="icon7">Có Mây</string>
+	<string name="icon8">thê lương</string>
+	<string name="icon9">Không biết</string>
+	<string name="icon10">Không biết</string>
+	<string name="icon11">Sương mù</string>
+	<string name="icon12">Mưa</string>
+	<string name="icon13">Trời nhiều mây với Mưa</string>
+	<string name="icon14">Một phần Nắng với Mưa</string>
+	<string name="icon15">dông bão</string>
+	<string name="icon16">Trời nhiều mây Mưa Mưa</string>
+	<string name="icon17">Một phần Nắng Mưa Sấm</string>
+	<string name="icon18">mưa</string>
+	<string name="icon19">Mưa dông bất chợt</string>
+	<string name="icon20">Trời nhiều mây với Mưa dông bất chợt</string>
+	<string name="icon21">Một phần Nắng với Mưa dông bất chợt</string>
+	<string name="icon22">tuyết Rơi</string>
+	<string name="icon23">Trời nhiều mây với Snow</string>
+	<string name="icon24">băng</string>
+	<string name="icon25">mưa tuyết</string>
+	<string name="icon26">Freezing Mưa</string>
+	<string name="icon27">Không biết</string>
+	<string name="icon28">Không biết</string>
+	<string name="icon29">Mưa và tuyết hỗn hợp</string>
+	<string name="icon30">Hot</string>
+	<string name="icon31">lạnh</string>
+	<string name="icon32">Windy</string>
+	<string name="icon33">rõ ràng</string>
+	<string name="icon34">Quang đãng</string>
+	<string name="icon35">Hơi Có Mây</string>
+	<string name="icon36">liên tục Mây</string>
+	<string name="icon37">không rỏ ràng</string>
+	<string name="icon38">Trời nhiều mây</string>
+	<string name="icon39">Hơi Có Mây với Mưa</string>
+	<string name="icon40">Trời nhiều mây với Mưa</string>
+	<string name="icon41">Hơi Có Mây Mưa Sấm</string>
+	<string name="icon42">Trời nhiều mây Mưa Mưa</string>
+	<string name="icon43">Trời nhiều mây với Mưa dông bất chợt</string>
+	<string name="icon44">Trời nhiều mây với Snow</string>
+	
+	<!--星期的名称-->
+	 <string-array name="weeknames">
+	 <item>Chủ Nhật</item>
+        <item>Chủ Nhật</item>
+        <item>Thứ Hai</item>
+        <item>Thứ ba</item>
+        <item>Thứ tư</item>
+        <item>Thứ năm</item>
+        <item>Thứ Sáu</item>
+        <item>Thứ bảy</item>
+     </string-array>
+     
+ 	<!--高低温简称-->
+    <string name="h">cao:</string>
+    <string name="l">thấp:</string>     
+ <!--设为本地城市-->   
+ <string name="setcity">Thiết lập thành phố địa phương</string>
+ <!--提示城市设置成功-->    
+	 <string name="set">Thành phố Thiết lập thành công</string>
+<!--提示输入城市名-->	 
+ <string name="citysearchinfo">Tên đầu vào thành phố</string>
+ 
+<!--当前城市-->	
+  <string name="currentcity">Hiện Tại:</string>
+<!--弹框提示信息-->	
+    <string name="alert_dialog_city_noinput">đầu vào thành phố tên xin vui lòng!</string>
+<!--对话框标题-->	    
+    <string name="alert_dialog_city_list">Chọn bạn thành phố</string>
+<!--没搜到城市 -->    
+    <string name="alert_dialog_city_not_found">Thành phố không</string>
+ <!--确定 -->   
+    <string name="alert_dialog_ok">xác định</string>
+ <!--正在搜索城市-->       
+    <string name="progress_search_city">Tìm kiếm thành phố ... </string>
+<!--添加城市 -->    
+    <string name="addcity">thêm thành phố</string>
+ <!--确定 -->     
+    <string name="add_ok">xác định</string>
+<!--取消 -->    
+    <string name="add_cancel">HỦY BỎ</string>
+    
+<!--应用名称 -->      
+<string name="app_name">Cảm xúc Thời tiết</string>
+
+
+    <string name="delete_warning">cảnh báo</string>
+    <string name="delete_message">bạn có chắc để xóa? \u0020</string>
+
+<!-- add -->
+     <string name="c_hint">输入中文地名</string>	
+    <string name="netbusy">mạng là bận rộn, hãy thử nó sau này!</string>
+    <string name="chinanet_failed">Nhận thời tiết không, kiểm tra các mạng lưới ...</string>
+    <string name="failedget">thông tin không!</string>
+
+    <string name="nonet">không có net</string>
+    <string name="cloud">liên tục Mây</string>
+    <string name="demotime">Wed,Jun 24"</string>
+   <string-array name="monthnames">
+        <item>Tháng một </item>
+        <item>Tháng Hai </item>
+        <item>March </item>
+        <item>Tháng Tư </item>
+        <item>May</item>
+        <item>Tháng Sáu</item>
+        <item>Tháng Bảy </item>
+        <item>Tháng Tám</item>
+        <item>Tháng Chín</item>
+        <item>Tháng Mười</item>
+        <item>Tháng Mười Một</item>
+        <item>Tháng mười hai</item>
+    </string-array>
+    <string name="loading">loading...</string>
+    <string name="menu_acu">nước ngoài ròng</string>
+    <string name="menu_cen">Trung Quốc net</string>
+    <string name="aboutt">về</string>   
+    <string name="flush">tuôn ra</string>
+    <string name="menu_info">Dữ liệu hiện tại, theo nguồn!</string>
+    <string name="menu_acuu">Bây giờ: acuuweather nguồn dữ liệu!</string>
+    <string name="menu_cent">Bây giờ là: Trung tâm Khí tượng Station nguồn dữ liệu!</string><!-- midify by xia 0614 -->
+    <string name="china">Trung Quốc </string>   
+    <string name="about">\n1. Trong trường hợp không nối mạng, thông tin thời tiết được hiển thị như các dữ liệu thời tiết của mạng thành công cuối cùng.
+\n2.  Nhấp vào nút "Thành phố" để chuyển sang các thành phố khác.
+\n3. Trang web nước ngoài, bởi vì phần xây dựng của thành phố nước ngoài, bạn muốn chuyển sang thành phố khác trong hộp đầu vào, nhập tên tiếng Anh của thành phố.Và sau đó là góc trên bên trái của biểu tượng Tìm kiếm trong danh sách tìm kiếm để chọn các thành phố bạn muốn chuyển đổi, bạn có thể. \n
+4. Các trang web trong nước, trực tiếp nhập vào tên thành phố của Trung Quốc trong danh sách, chọn thành phố mà bạn muốn chuyển đổi, bạn có thể. \n
+5. Trong trang web chỉ có thể truy vấn thông tin thời tiết thành phố trong nước, Hoa trang web nước ngoài, thành phố trong nước và nước ngoài có thể truy vấn chính xác hơn thành phố trong nước với các trang web trong nước. \n
+6. Sử dụng mạng wifi truy cập nhanh hơn để thông tin thời tiết.
+</string>
+    
+</resources>

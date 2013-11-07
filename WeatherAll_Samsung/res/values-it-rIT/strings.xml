@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- 44种天气的描述信息 -->
+	<string name="icon1">soleggiato</string>
+	<string name="icon2">Per lo più soleggiato</string>
+	<string name="icon3">parzialmente soleggiato</string>
+	<string name="icon4">Nubi intermittenti</string>
+	<string name="icon5">Sole Hazy</string>
+	<string name="icon6">Parzialmente nuvoloso</string>
+	<string name="icon7">nuvoloso</string>
+	<string name="icon8">triste</string>
+	<string name="icon9">sconosciuto</string>
+	<string name="icon10">sconosciuto</string>
+	
+	<string name="icon11">nebbia</string>
+	<string name="icon12">docce</string>
+	<string name="icon13">Parzialmente nuvoloso con possibilità di rovesci</string>
+	<string name="icon14">Parzialmente soleggiato con rovesci</string>
+	<string name="icon15">temporali</string>
+	<string name="icon16">Parzialmente nuvoloso con possibilità di rovesci Thunder</string>
+	<string name="icon17">Parzialmente soleggiato con rovesci Thunder</string>
+	<string name="icon18">pioggia</string>
+	<string name="icon19">Rovesci</string>
+	<string name="icon20">Parzialmente nuvoloso con Rovesci</string>
+	<string name="icon21">Parzialmente soleggiato con Rovesci</string>
+	<string name="icon22">neve</string>
+	<string name="icon23">Parzialmente nuvoloso con neve</string>
+	<string name="icon24">ghiaccio</string>
+	<string name="icon25">nevischio</string>
+	<string name="icon26">Pioggia di congelamento</string>
+	<string name="icon27">sconosciuto</string>
+	<string name="icon28">sconosciuto</string>
+	
+	
+	<string name="icon29">Pioggia e neve mista</string>
+	<string name="icon30">caldo</string>
+	<string name="icon31">freddo</string>
+	<string name="icon32">ventoso</string>
+	<string name="icon33">chiaro</string>
+	<string name="icon34">Parzialmente nuvoloso</string>
+	<string name="icon35">Parzialmente nuvoloso</string>
+	<string name="icon36">Nubi intermittenti</string>
+	<string name="icon37">nebuloso</string>
+	<string name="icon38">Parzialmente nuvoloso</string>
+	<string name="icon39">Parzialmente nuvoloso con possibilità di rovesci</string>
+	<string name="icon40">Parzialmente nuvoloso con possibilità di rovesci</string>
+	<string name="icon41">mente nuvoloso con possibilità di rovesci Thunder</string>
+	<string name="icon42">mente nuvoloso con possibilità di rovesci Thunder</string>
+	<string name="icon43">mente nuvoloso con Rovesci</string>
+	<string name="icon44">Parzialmente nuvoloso con neve</string>
+	
+	<!--星期的名称-->
+	 <string-array name="weeknames">
+	   <item>domenica</item>
+        <item>domenica</item>
+        <item>Lunedi</item>
+        <item>martedì</item>
+        <item>mercoledì</item>
+        <item>Giovedi</item>
+        <item>venerdì</item>
+        <item>sabato</item>
+     </string-array>
+     
+ 	<!--高低温简称-->
+    <string name="h">A:</string>
+    <string name="l">B:</string>     
+ <!--设为本地城市-->   
+ <string name="setcity">Imposta locale della città</string>
+ <!--提示城市设置成功-->    
+	 <string name="set">Città Set Successo</string>
+<!--提示输入城市名-->	 
+ <string name="citysearchinfo">Ingresso nome della città</string>
+ 
+<!--当前城市-->	
+  <string name="currentcity">Città di corrente</string>
+<!--弹框提示信息-->	
+    <string name="alert_dialog_city_noinput">nome della città di ingresso per favore!</string>
+<!--对话框标题-->	    
+    <string name="alert_dialog_city_list">Seleziona una località</string>
+<!--没搜到城市 -->    
+    <string name="alert_dialog_city_not_found">Città non trovata</string>
+ <!--确定 -->   
+    <string name="alert_dialog_ok">determinare</string>
+ <!--正在搜索城市-->       
+    <string name="progress_search_city">Ricerca città ... </string>
+<!--添加城市 -->    
+    <string name="addcity">aggiungere città</string>
+ <!--确定 -->     
+    <string name="add_ok">determinare</string>
+<!--取消 -->    
+    <string name="add_cancel">annullare</string>
+    
+<!--应用名称 -->      
+<string name="app_name">Emotion Meteo</string>
+
+    <string name="delete_warning">avvertimento</string>
+    <string name="delete_message">si è sicuri di eliminare? \u0020</string>
+
+
+
+</resources>

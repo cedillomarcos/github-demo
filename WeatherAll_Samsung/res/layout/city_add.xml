@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_gravity="top"
+	android:layout_width="700px"
+	android:layout_height="360px"
+	android:layout_marginLeft = "150px"
+	android:layout_marginTop="35px"
+	>
+	<LinearLayout 
+		android:layout_width="fill_parent" 
+		android:layout_height="375px"
+		android:orientation="vertical">
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+	         android:layout_width="fill_parent"
+	         android:layout_height="49px"
+	         android:layout_marginTop="14px"
+	         android:layout_marginLeft="20px"
+	         android:id="@+id/layout">
+	          <TextView
+	            android:id="@+id/selectacity"
+	            android:text="@string/selectacity"
+	            android:textSize="25px"	
+	            android:layout_marginLeft="10px"     		           
+	            android:textColor="#ffffff"
+	            android:layout_width="200px"         
+	            android:layout_height="fill_parent">   
+            </TextView>  
+            <EditText
+	            android:id="@+id/city_edittext"
+	            android:textSize="25px"			           
+	            android:textColor="#000000"
+	            android:maxLines="1"
+	            android:visibility="invisible"
+	            android:scrollbars="none"
+	            android:scrollHorizontally="true"
+	            android:layout_width="200px"         
+	            android:layout_height="fill_parent">   
+            </EditText>  
+            <ImageView
+               android:id="@+id/search"
+               android:visibility="invisible"
+               android:layout_width="50px"
+               android:layout_height="40px"  
+               android:layout_marginLeft="5px"      
+               />   	
+        </LinearLayout>
+		 <ListView android:id="@+id/city_listview"
+         android:layout_width="700px"
+         android:layout_height="fill_parent"
+         android:layout_marginLeft="20px" 
+         android:fadingEdge="none" 
+         android:background="@color/white"
+          /> 	
+		</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- 44种天气的描述信息 -->
+	<string name="icon1">güneşli</string>
+	<string name="icon2">çoğunlukla Güneşli</string>
+	<string name="icon3">Güneşli</string>
+	<string name="icon4">ntermittent Bulutlar</string>
+	<string name="icon5">hazy Sunshine</string>
+	<string name="icon6">bulutlu</string>
+	<string name="icon7">kasvetli</string>
+	<string name="icon8">thê lương</string>
+	<string name="icon9">bilinmeyen</string>
+	<string name="icon10">bilinmeyen</string>
+	<string name="icon11">sis</string>
+	<string name="icon12">Duşlar</string>
+	<string name="icon13">Sağanak ile Çok Bulutlu</string>
+	<string name="icon14">Sağanak ile Güneşli</string>
+	<string name="icon15">Gök Gürültülü</string>
+	<string name="icon16">Thunder Yağışı ile Çok Bulutlu</string>
+	<string name="icon17">Thunder Yağışı ile Güneşli</string>
+	<string name="icon18">yağmur</string>
+	<string name="icon19">Mevzii</string>
+	<string name="icon20">Mevzii ile Çok Bulutlu</string>
+	<string name="icon21">Mevzii ile Güneşli</string>
+	<string name="icon22">kar</string>
+	<string name="icon23">Kar ile Çok Bulutlu</string>
+	<string name="icon24">buz</string>
+	<string name="icon25">karla karışık yağmur</string>
+	<string name="icon26">Dondurucu Yağmur</string>
+	<string name="icon27">bilinmeyen</string>
+	<string name="icon28">bilinmeyen</string>
+	<string name="icon29">Karışık Yağmur ve Kar</string>
+	<string name="icon30">sıcak</string>
+	<string name="icon31">soğuk</string>
+	<string name="icon32">rüzgârlı</string>
+	<string name="icon33">Temizle</string>
+	<string name="icon34">Genelde Açık</string>
+	<string name="icon35">Parçalı Bulutlu</string>
+	<string name="icon36">Aralıklı Bulutlar</string>
+	<string name="icon37">puslu</string>
+	<string name="icon38">Çok Bulutlu</string>
+	<string name="icon39">Sağanak ile Parçalı Bulutlu</string>
+	<string name="icon40">Sağanak ile Çok Bulutlu</string>
+	<string name="icon41">Thunder Yağışı ile Parçalı Bulutlu</string>
+	<string name="icon42">Thunder Yağışı ile Çok Bulutlu</string>
+	<string name="icon43">Mevzii ile Çok Bulutlu</string>
+	<string name="icon44">Kar ile Çok Bulutlu</string>
+	
+	<!--星期的名称-->
+	 <string-array name="weeknames">
+	 <item>Chủ Nhật</item>
+        <item>Chủ Nhật</item>
+        <item>Thứ Hai</item>
+        <item>Thứ ba</item>
+        <item>Thứ tư</item>
+        <item>Thứ năm</item>
+        <item>Thứ Sáu</item>
+        <item>Thứ bảy</item>
+     </string-array>
+     
+ 	<!--高低温简称-->
+    <string name="h">yüksek:</string>
+    <string name="l">düşük:</string>     
+ <!--设为本地城市-->   
+ <string name="setcity">Yerel şehir ayarlayın</string>
+ <!--提示城市设置成功-->    
+	 <string name="set">Şehir Başarı ayarlayın!</string>
+<!--提示输入城市名-->	 
+ <string name="citysearchinfo">ingilizce girişi şehrin adını</string>
+ 
+<!--当前城市-->	
+  <string name="currentcity">Şu anki şehri:</string>
+<!--弹框提示信息-->	
+    <string name="alert_dialog_city_noinput">ingilizce girişi şehir adı!</string>
+<!--对话框标题-->	    
+    <string name="alert_dialog_city_list">Eğer şehir seçin</string>
+<!--没搜到城市 -->    
+    <string name="alert_dialog_city_not_found">Şehir bulunamadı</string>
+ <!--确定 -->   
+    <string name="alert_dialog_ok">ok</string>
+ <!--正在搜索城市-->       
+    <string name="progress_search_city">Şehir aranıyor ... </string>
+<!--添加城市 -->    
+    <string name="addcity">ctiy ekleyin</string>
+ <!--确定 -->     
+    <string name="add_ok">ok</string>
+<!--取消 -->    
+    <string name="add_cancel">İPTAL</string>
+    
+<!--应用名称 -->      
+<string name="app_name">duygu Hava</string>
+<string name="delete_warning">uyarı</string>
+<string name="delete_message">Silmek emin? \u0020</string>
+
+<!-- add -->
+     <string name="c_hint">输入中文地名</string>	
+    <string name="netbusy">net meşgul, daha sonra deneyin!</string>
+    <string name="chinanet_failed">Hava başarısız alın, ağı kontrol ...</string>
+    <string name="failedget">bilgi başarısız olsun!</string>
+
+    <string name="nonet">Hayır net</string>
+    <string name="cloud">Aralıklı Cloud</string>
+    <string name="demotime">Wed, 24 Haziran</string>
+   <string-array name="monthnames">
+        <item>Ocak </item>
+        <item>Şubat </item>
+        <item>Mart </item>
+        <item>Nisan </item>
+        <item>Mayıs </item>
+        <item>Haziran </item>
+        <item>Temmuz </item>
+        <item>Ağustos </item>
+        <item>Eylül </item>
+        <item>Ekim </item>
+        <item>Kasım </item>
+        <item>Aralık </item>
+    </string-array>
+    <string name="loading">yükleniyor ...</string>
+    <string name="menu_acu">yabancı net</string>
+    <string name="menu_cen">çin net</string>
+    <string name="aboutt">hakkında</string>   
+    <string name="flush">floş</string>
+    <string name="menu_info">Mevcut veri kaynağını göre!</string>
+    <string name="menu_acuu">Şimdi: acuuweather veri kaynağı!</string>
+    <string name="menu_cent">Şimdi: Merkez Meteoroloji İstasyonu veri kaynağı!</string><!-- midify by xia 0614 -->
+    <string name="china">Çin </string>   
+    <string name="about">\n1.  Ağ olmayan bir durumda, hava bilgilerini son başarılı ağ hava veri olarak gösterilir.
+\n2.  Diğer şehirlere geçmek için "Şehir" butonuna tıklayın.
+\n3. Yabancı web siteleri, çünkü yabancı şehrin inşa parçası, giriş kutusuna diğer şehirlere geçmek istiyorum, girin
+
+Kentin İngilizce adı.
+Ve sonra şehir seçmek için arama listesinde Ara simgesinin sol üst köşesinde bir geçiş yapmak istiyorsanız, yapabilirsiniz. \n
+4. Yurtiçi web siteleri, doğrudan listede Çin şehir adını girerseniz, geçiş yapmak istediğiniz şehri seçin, bunu yapabilirsiniz. \n
+5. Yurtiçi site sadece şehir içi hava durumu bilgilerini sorgulayabilir; yabancı web siteleri Devletleri, yerli ve yabancı şehirleri
+
+yerli web siteleri ile daha doğru iç şehirler sorgulayabilirsiniz. \n
+6. Wifi ağ hava durumu bilgilerini daha hızlı erişim kullanma.
+</string>
+
+</resources>

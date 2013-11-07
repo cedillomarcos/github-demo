@@ -1,0 +1,11 @@
+---- weather_mainother Matches (3 in 2 files) ----
+R.java (gen\com\all\weather):        public static final int weather_mainother=0x7f03000a;
+TimeUpdateService.java (src\com\all\weather):  					 mViews = new RemoteViews(getPackageName(), R.layout.weather_mainother);
+TimeUpdateService.java (src\com\all\weather):             mViews = new RemoteViews(getPackageName(), R.layout.weather_mainother);
+---- weather_main Matches (6 in 3 files) ----
+appwidget_provider.xml (res\xml):    android:initialLayout="@layout/weather_main"
+R.java (gen\com\all\weather):        public static final int weather_main=0x7f030007;
+TimeUpdateService.java (src\com\all\weather):                    mViews = new RemoteViews(getPackageName(), R.layout.weather_main);
+TimeUpdateService.java (src\com\all\weather):        mViews = new RemoteViews(getPackageName(), R.layout.weather_main);
+TimeUpdateService.java (src\com\all\weather):             mViews = new RemoteViews(getPackageName(), R.layout.weather_main);
+TimeUpdateService.java (src\com\all\weather):    	          mViews = new RemoteViews(getPackageName(), R.layout.weather_main);

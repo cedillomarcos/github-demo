@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- 44种天气的描述信息 -->
+	<string name="icon1">Sunny</string>
+	<string name="icon2">Mostly Sunny</string>
+	<string name="icon3">Partly Sunny</string>
+	<string name="icon4">Intermittent Clouds</string>
+	<string name="icon5">Hazy Sunshine</string>
+	<string name="icon6">Mostly Cloudy</string>
+	<string name="icon7">Cloudy</string>
+	<string name="icon8">Dreary</string>
+	<string name="icon9">Unknown</string>
+	<string name="icon10">Unknown</string>
+	<string name="icon11">Fog</string>
+	<string name="icon12">Showers</string>
+	<string name="icon13">Mostly Cloudy with Showers</string>
+	<string name="icon14">Partly Sunny with Showers</string>
+	<string name="icon15">Thunderstorms</string>
+	<string name="icon16">Mostly Cloudy with Thunder Showers</string>
+	<string name="icon17">Partly Sunny with Thunder Showers</string>
+	<string name="icon18">Rain</string>
+	<string name="icon19">Flurries</string>
+	<string name="icon20">Mostly Cloudy with Flurries</string>
+	<string name="icon21">Partly Sunny with Flurries</string>
+	<string name="icon22">Snow</string>
+	<string name="icon23">Mostly Cloudy with Snow</string>
+	<string name="icon24">Ice</string>
+	<string name="icon25">Sleet</string>
+	<string name="icon26">Freezing Rain</string>
+	<string name="icon27">Unknown</string>
+	<string name="icon28">Unknown</string>
+	<string name="icon29">Rain and Snow Mixed</string>
+	<string name="icon30">Hot</string>
+	<string name="icon31">Cold</string>
+	<string name="icon32">Windy</string>
+	<string name="icon33">Clear</string>
+	<string name="icon34">Mostly Clear</string>
+	<string name="icon35">Partly Cloudy</string>
+	<string name="icon36">Intermittent Clouds</string>
+	<string name="icon37">Hazy</string>
+	<string name="icon38">Mostly Cloudy</string>
+	<string name="icon39">Partly Cloudy with Showers</string>
+	<string name="icon40">Mostly Cloudy with Showers</string>
+	<string name="icon41">Partly Cloudy with Thunder Showers</string>
+	<string name="icon42">Mostly Cloudy with Thunder Showers</string>
+	<string name="icon43">Mostly Cloudy with Flurries</string>
+	<string name="icon44">Mostly Cloudy with Snow</string>
+	
+	<!--星期的名称-->
+	 <string-array name="weeknames">
+	    <item>en</item>
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+     </string-array>
+     
+ 	<!--高低温简称-->
+    <string name="h">H:</string>
+    <string name="l">L:</string>     
+ <!--设为本地城市-->   
+ <string name="setcity">Setlocalcity</string>
+ <!--提示城市设置成功-->    
+	 <string name="set"> "City Set Success! "</string>
+<!--提示输入城市名-->	 
+ <string name="citysearchinfo">input city name</string>
+ 
+<!--当前城市-->	
+  <string name="currentcity">Current City:</string>
+<!--弹框提示信息-->	
+    <string name="alert_dialog_city_noinput">input city name please!</string>
+<!--对话框标题-->	    
+    <string name="alert_dialog_city_list">Select you city</string>
+<!--没搜到城市 -->    
+    <string name="alert_dialog_city_not_found">City not found</string>
+ <!--确定 -->   
+    <string name="alert_dialog_ok">Ok</string>
+ <!--正在搜索城市-->       
+    <string name="progress_search_city">Searching city ... </string>
+<!--添加城市 -->    
+    <string name="addcity">add ctiy</string>
+ <!--确定 -->     
+    <string name="add_ok">OK</string>
+<!--取消 -->    
+    <string name="add_cancel">CANCEL</string>
+    
+<!--应用名称 -->      
+<string name="app_name">EmotionWeather</string>
+
+    <string name="delete_warning">warning</string>
+    <string name="delete_message">Are you sure to delete \u0020</string>    
+
+</resources>

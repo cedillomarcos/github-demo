@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- 44种天气的描述信息 -->
+	<string name="icon1">Sunny</string>
+	<string name="icon2">kebanyakannya Cerah</string>
+	<string name="icon3">sebahagiannya Sunny</string>
+	<string name="icon4">Awan secara putus-putus</string>
+	<string name="icon5">Sunshine berjerebu</string>
+	<string name="icon6">kebanyakannya Mendung</string>
+	<string name="icon7">Mendung</string>
+	<string name="icon8">suram</string>
+	<string name="icon9">tidak diketahui</string>
+	<string name="icon10">tidak diketahui</string>
+	<string name="icon11">kabut</string>
+	<string name="icon12">Hujan</string>
+	<string name="icon13">Kebanyakannya Mendung dengan Hujan</string>
+	<string name="icon14">Sebahagiannya Sunny dengan Hujan</string>
+	<string name="icon15">ribut petir</string>
+	<string name="icon16">Kebanyakannya Mendung dengan Hujan Thunder</string>
+	<string name="icon17">Sebahagiannya Sunny dengan Hujan Thunder</string>
+	<string name="icon18">hujan</string>
+	<string name="icon19">Banjir</string>
+	<string name="icon20">Kebanyakannya Mendung dengan Banjir</string>
+	<string name="icon21">Sebahagiannya Sunny dengan Banjir</string>
+	<string name="icon22">salji</string>
+	<string name="icon23">Kebanyakannya Mendung dengan Salji</string>
+	<string name="icon24">ais</string>
+	<string name="icon25">Hujan beku</string>
+	<string name="icon26">Hujan Sejuk Rain</string>
+	<string name="icon27">tidak diketahui</string>
+	<string name="icon28">tidak diketahui</string>
+	<string name="icon29">Hujan dan Salji Campuran </string>
+	<string name="icon30">panas</string>
+	<string name="icon31">Dingin</string>
+	<string name="icon32">berangin</string>
+	<string name="icon33">jelas</string>
+	<string name="icon34">kebanyakannya Cerah</string>
+	<string name="icon35">Partly Cloudy</string>
+	<string name="icon36">Awan secara putus-putus</string>
+	<string name="icon37">berjerebu</string>
+	<string name="icon38">kebanyakannya Mendung</string>
+	<string name="icon39">Sebahagiannya Mendung dengan Hujan</string>
+	<string name="icon40">Sebahagiannya Mendung dengan Hujan</string>
+	<string name="icon41">Sebahagiannya Mendung dengan Hujan Thunder</string>
+	<string name="icon42">Sebahagiannya Mendung dengan Hujan Thunder</string>
+	<string name="icon43">Kebanyakannya Mendung dengan Banjir</string>
+	<string name="icon44">Kebanyakannya Mendung dengan Salji</string>
+	
+	<!--星期的名称-->
+	 <string-array name="weeknames">
+	   <item>Ahad</item>
+        <item>Ahad</item>
+        <item>isnin</item>
+        <item>Selasa</item>
+        <item>rabu</item>
+        <item>Khamis</item>
+        <item>Jumaat</item>
+        <item>Sabtu</item>
+     </string-array>
+     
+ 	<!--高低温简称-->
+    <string name="h">T:</string>
+    <string name="l">R:</string>     
+ <!--设为本地城市-->   
+ <string name="setcity">Tetapkan bandar tempatan</string>
+ <!--提示城市设置成功-->    
+	 <string name="set">City Set Kejayaan</string>
+<!--提示输入城市名-->	 
+ <string name="citysearchinfo">Nama input bandar</string>
+ 
+<!--当前城市-->	
+  <string name="currentcity">Bandar semasa:</string>
+<!--弹框提示信息-->	
+    <string name="alert_dialog_city_noinput">input nama bandar sila!</string>
+<!--对话框标题-->	    
+    <string name="alert_dialog_city_list">Pilih anda bandar</string>
+<!--没搜到城市 -->    
+    <string name="alert_dialog_city_not_found">Bandar tidak ditemui</string>
+ <!--确定 -->   
+    <string name="alert_dialog_ok">menentukan</string>
+ <!--正在搜索城市-->       
+    <string name="progress_search_city">Searching city ... </string>
+<!--添加城市 -->    
+    <string name="addcity">menambah bandar</string>
+ <!--确定 -->     
+    <string name="add_ok">menentukan</string>
+<!--取消 -->    
+    <string name="add_cancel">membatalkan</string>
+    
+<!--应用名称 -->      
+<string name="app_name">Cuaca emosi</string>
+
+    <string name="delete_warning">amaran</string>
+    <string name="delete_message">anda pasti untuk memadam?\u0020</string>
+
+<!-- add -->
+     <string name="c_hint">输入中文地名</string>	
+    <string name="netbusy">bersih sibuk, cuba kemudian!</string>
+    <string name="chinanet_failed">Dapatkan cuaca gagal, periksa rangkaian ...</string>
+    <string name="failedget">info gagal!</string>
+
+    <string name="nonet">bersih tiada</string>
+    <string name="cloud">Awan terputus-putus</string>
+    <string name="demotime">Wed,Jun 24</string>
+   <string-array name="monthnames">
+        <item>January</item>
+        <item>February</item>
+        <item>Mac </item>
+        <item>April</item>
+        <item>Mei </item>
+        <item>JUN </item>
+        <item>JULAI </item>
+        <item>OGOS </item>
+        <item>September </item>
+        <item>October </item>
+        <item>November </item>
+        <item>Disember </item>
+    </string-array>
+    <string name="loading">mengambil ...</string>
+    <string name="menu_acu">asing bersih</string>
+    <string name="menu_cen">cina bersih</string>
+    <string name="aboutt">kira-kira</string>   
+    <string name="flush">flush</string>
+    <string name="menu_info">Data semasa, menurut sumber itu!</string>
+    <string name="menu_acuu">Sekarang: acuuweather sumber data!</string>
+    <string name="menu_cent">Sekarang: Central Stesen Kajicuaca sumber data!</string><!-- midify by xia 0614 -->
+    <string name="china">China</string>   
+    <string name="about">\n1.  Dalam kes bukan rangkaian, maklumat cuaca dipaparkan sebagai data cuaca rangkaian berjaya lepas.
+\n2. Klik pada butang "City" untuk beralih ke bandar-bandar lain.
+\n3. Laman web asing, kerana sebahagian yang dibina di bandar asing, anda mahu beralih ke bandar-bandar lain di dalam kotak input, masukkan nama Inggeris bandar.Dan kemudian sudut atas kiri ikon Search dalam senarai carian untuk memilih bandar anda ingin bertukar, anda boleh. \n
+4. Laman domestik, secara langsung masukkan nama bandar Cina dalam senarai, pilih bandar yang anda ingin bertukar, anda boleh.  \n
+5. Tapak domestik hanya boleh query cuaca bandar maklumat domestik; laman web negeri-negeri asing, bandar domestik dan asing boleh query yang lebih tepat bandar-bandar domestik dengan laman web domestik. \n
+6. Menggunakan rangkaian wifi akses yang lebih cepat kepada maklumat cuaca.
+</string>
+    
+
+</resources>

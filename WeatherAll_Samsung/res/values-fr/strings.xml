@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- 44种天气的描述信息 -->
+	<string name="icon1">ensoleillé</string>
+	<string name="icon2">ensoleillé</string>
+	<string name="icon3">ensoleillé</string>
+	<string name="icon4">Nuages ​​intermittents</string>
+	<string name="icon5">Soleil voilé</string>
+	
+	<string name="icon6">nuageux</string>
+	<string name="icon7">nuageux</string>
+	<string name="icon8">morne</string>
+	<string name="icon9">inconnue</string>
+	<string name="icon10">inconnue</string>
+	
+	<string name="icon11">Brouillard</string>
+	<string name="icon12">douches</string>
+	<string name="icon13">Principalement nuageux avec averses</string>
+	<string name="icon14">Ensoleillé avec douches</string>
+	<string name="icon15">orages</string>
+	<string name="icon16">Principalement nuageux avec averses de Thunder</string>
+	<string name="icon17">Ensoleillé avec douches Tonnerre</string>
+	<string name="icon18">pluie</string>
+	<string name="icon19">averses de neige</string>
+	<string name="icon20">Nuageux avec quelques flocons</string>
+	<string name="icon21">Ensoleillé avec quelques flocons</string>
+	<string name="icon22">neige</string>
+	<string name="icon23">Nuageux avec Snow</string>
+	<string name="icon24">glace</string>
+	<string name="icon25">neige fondue</string>
+	<string name="icon26">pluie verglaçante</string>
+	<string name="icon27">inconnue</string>
+	<string name="icon28">inconnue</string>
+	
+	<string name="icon29">Pluie et neige mêlées</string>
+	<string name="icon30">chaud</string>
+	<string name="icon31">froid</string>
+	<string name="icon32">venteux</string>
+	<string name="icon33">Effacer</string>
+	<string name="icon34">Nuages ​​épars</string>
+	<string name="icon35">partiellement nuageux</string>
+	<string name="icon36">Nuages ​​intermittents</string>
+	<string name="icon37">brumeux</string>
+	<string name="icon38">nuageux</string>
+	<string name="icon39">En partie nuageux avec averses</string>
+	<string name="icon40">Principalement nuageux avec averses</string>
+	<string name="icon41">En partie nuageux avec averses de Thunder</string>
+	<string name="icon42">Principalement nuageux avec averses de Thunder</string>
+	<string name="icon43">Nuageux avec quelques flocons</string>
+	<string name="icon44">Nuageux avec Snow</string>
+	
+	<!--星期的名称-->
+	 <string-array name="weeknames">
+	   <item>dimanche</item>
+        <item>dimanche</item>
+        <item>lundi</item>
+        <item>mardi</item>
+        <item>mercredi</item>
+        <item>jeudi</item>
+        <item>vendredi</item>
+        <item>samedi</item>
+     </string-array>
+     
+ 	<!--高低温简称-->
+    <string name="h">H:</string>
+    <string name="l">F:</string>     
+ <!--设为本地城市-->   
+ <string name="setcity">Régler la ville locale</string>
+ <!--提示城市设置成功-->    
+	 <string name="set"> Succès Set Ville</string>
+<!--提示输入城市名-->	 
+ <string name="citysearchinfo">nom de la ville d\'entrée</string>
+ 
+<!--当前城市-->	
+  <string name="currentcity">Current City:</string>
+<!--弹框提示信息-->	
+    <string name="alert_dialog_city_noinput">nom de la ville d\'entrée s\'il vous plaît!</string>
+<!--对话框标题-->	    
+    <string name="alert_dialog_city_list">Sélectionnez votre ville</string>
+<!--没搜到城市 -->    
+    <string name="alert_dialog_city_not_found">Ville ne trouve pas</string>
+ <!--确定 -->   
+    <string name="alert_dialog_ok">déterminer</string>
+ <!--正在搜索城市-->       
+    <string name="progress_search_city">Recherche ville ... </string>
+<!--添加城市 -->    
+    <string name="addcity">Ajouter ville</string>
+ <!--确定 -->     
+    <string name="add_ok">déterminer</string>
+<!--取消 -->    
+    <string name="add_cancel">ANNULER</string>
+    
+<!--应用名称 -->      
+<string name="app_name">Météo Emotion</string>
+
+    <string name="delete_warning">Attention </string>
+    <string name="delete_message">Êtes-vous sûr de vouloir supprimer?\u0020</string>
+ <string name="c_hint">输入中文地名</string>	
+    <string name="netbusy">NET est occupé, essayer plus tard!</string>
+    <string name="chinanet_failed">Obtenez la météo échoue, vérifiez le réseau ...</string>   
+    <string name="failedget">l\'obtenir les informations a échoué!</string>
+    <string name="nonet">n ° NET</string>
+    <string name="cloud">Nuage intermittent,</string>
+    <string name="demotime">Wed, 24 juin</string>
+   <string-array name="monthnames">
+        <item>Janvier</item>
+        <item>Février </item>
+        <item>March</item>
+        <item>Avril </item>
+        <item>Mai </item>
+        <item>Juin </item>
+        <item>Juillet </item>
+        <item>Août </item>
+        <item>Septembre</item>
+        <item>Octobre </item>
+        <item>Novembre</item>
+        <item>Décembre</item>
+    </string-array>
+    <string name="loading">Chargement en cours ...</string>
+    <string name="menu_acu">NET étrangère</string>
+    <string name="menu_cen">la Chine sur le net</string>
+    <string name="aboutt">sur</string>  
+    <string name="flush">flush</string>
+
+    <string name="menu_info">Actuel des données, selon la source de la!</string>
+    <string name="menu_acuu">Maintenant: acuuweather source de données!</string>
+    <string name="menu_cent">Maintenant: la station météorologique centrale, les données de la source.</string><!-- midify by xia 0614 -->
+    <string name="china">Chine</string> 
+ <string name="about">\n1.Dans le cas de non-réseau, l\'information météorologique est 
+
+affiché comme les données météorologiques de la dernière réseautage réussi.
+\n2. est. Cliquez sur la «Ville» pour passer à d\'autres villes.
+\n3. sites étrangères, en raison de la partie construite de la ville étrangère, vous 
+
+souhaitez passer à d\'autres villes dans la zone de saisie, entrez le nom anglais de la 
+
+ville.Et puis le coin supérieur gauche de l\'icône Rechercher dans la liste de recherche 
+
+pour sélectionner les villes que vous souhaitez passer, vous le pouvez. \n
+4. Sites domestiques, entrer directement le nom de la ville chinoise dans la liste, 
+
+sélectionnez la ville que vous souhaitez passer, vous le pouvez.  \n
+5. Le site domestique ne peut interroger les informations météorologiques de villes int
+
+érieures; étrangers aux États sites, villes nationales et étrangères peuvent de la requ
+
+ête plus précises villes du pays avec des sites nationaux. \n
+6.En utilisant le réseau wifi un accès plus rapide à \'information météorologique.
+</string>
+
+
+</resources>

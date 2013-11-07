@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- 44种天气的描述信息 -->
+	<string name="icon1">ηλιόλουστος</string>
+	<string name="icon2">Ηλιοφάνεια</string>
+	<string name="icon3">Μερική ηλιοφάνεια</string>
+	<string name="icon4">Περιοδικά σύννεφα</string>
+	<string name="icon5">Η ασάφεια της ηλιοφάνειας</string>
+	<string name="icon6">Νεφελώδης</string>
+	<string name="icon7">νεφελώδης</string>
+	<string name="icon8">θλιβερός</string>
+	<string name="icon9">άγνωστος</string>
+	<string name="icon10">άγνωστος</string>
+	
+	<string name="icon11">ομίχλη</string>
+	<string name="icon12">Καταιγίδες</string>
+	<string name="icon13">Κυρίως συννεφιασμένος με δυνατές βροχές</string>
+	<string name="icon14">Μερικώς συννεφιασμένος με δυνατές βροχές</string>
+	<string name="icon15">καταιγίδες</string>
+	<string name="icon16">Κυρίως λιακάδα Thunder</string>
+	<string name="icon17">Κυρίως λιακάδα Thunder</string>
+	<string name="icon18">βροχή</string>
+	<string name="icon19">Χιονόπτωση</string>
+	<string name="icon20">Νεφελώδης με Χιονόπτωση</string>
+	
+	<string name="icon21">Μερική ηλιοφάνεια με Χιονόπτωση</string>
+	<string name="icon22">χιόνι</string>
+	<string name="icon23">Νεφελώδης με χιόνι</string>
+	<string name="icon24">πάγος</string>
+	<string name="icon25">χιονόνερο</string>
+	<string name="icon26">Δέσμευση Βροχή</string>
+	<string name="icon27">άγνωστος</string>
+	<string name="icon28">άγνωστος</string>
+	<string name="icon29">Βροχή και χιόνι Μικτή</string>
+	<string name="icon30">καυτό</string>
+	
+	<string name="icon31">κρύο</string>
+	<string name="icon32">ανεμώδης</string>
+	<string name="icon33">Διαγραφή</string>
+	<string name="icon34">Σχεδόν Αίθριος</string>
+	<string name="icon35">Αίθριος</string>
+	<string name="icon36">Περιοδικά σύννεφα</string>
+	<string name="icon37">ομιχλώδης</string>
+	<string name="icon38">Νεφελώδης</string>
+	<string name="icon39">Μερικώς συννεφιασμένος με δυνατές βροχές</string>
+	<string name="icon40">Κυρίως συννεφιασμένος με δυνατές βροχές</string>
+	
+	<string name="icon41">Μερικώς συννεφιασμένος με δυνατές βροχές Thunder</string>
+	<string name="icon42">Κυρίως λιακάδα Thunder</string>
+	<string name="icon43">Νεφελώδης με Χιονόπτωση</string>
+	<string name="icon44">Νεφελώδης με χιόνι</string>
+	
+	<!--星期的名称-->
+	 <string-array name="weeknames">
+	    <item>en</item>
+        <item>Κυριακή</item>
+        <item>Δευτέρα</item>
+        <item>Τρίτη</item>
+        <item>Τετάρτη</item>
+        <item>Πέμπτη</item>
+        <item>Παρασκευή</item>
+        <item>Σάββατο</item>
+     </string-array>
+ 	<!--高低温简称-->
+    <string name="h">H:</string>
+    <string name="l">L:</string>     
+ <!--设为本地城市-->   
+ <string name="setcity">ρυθμισμένο στην τοπική Σίτι</string>
+ <!--提示城市设置成功-->    
+	 <string name="set"> Πόλη Ορισμός Επιτυχία!</string>
+<!--提示输入城市名-->	 
+ <string name="citysearchinfo">εισόδου όνομα της πόλης στα αγγλικά </string>
+ 
+<!--当前城市-->	
+  <string name="currentcity">Τρέχουσα Πόλη:</string>
+<!--弹框提示信息-->	
+    <string name="alert_dialog_city_noinput">όνομα της πόλης στα αγγλικά!</string>
+<!--对话框标题-->	    
+    <string name="alert_dialog_city_list"> Επιλέξτε πόλη σας</string>
+<!--没搜到城市 -->    
+    <string name="alert_dialog_city_not_found">​​πόλης δεν βρέθηκε </string>
+ <!--确定 -->   
+    <string name="alert_dialog_ok"> Εντάξει </string>
+ <!--正在搜索城市-->       
+    <string name="progress_search_city">Αναζήτηση πόλης ... </string>
+<!--添加城市 -->    
+    <string name="addcity">προσθήκη ctiy</string>
+ <!--确定 -->     
+    <string name="add_ok">Εντάξει</string>
+<!--取消 -->    
+    <string name="add_cancel">ΑΚΥΡΩΣΗ</string>
+    
+<!--应用名称 -->      
+<string name="app_name"> Συγκίνηση Καιρός</string>
+
+    <string name="delete_warning">προειδοποίηση</string>
+    <string name="delete_message">Είστε βέβαιοι για τη διαγραφή \u0020</string>
+
+<!-- add -->
+     <string name="c_hint">输入中文地名</string>	
+    <string name="netbusy">το καθαρό είναι απασχολημένος, δοκιμάστε αργότερα!</string>
+    <string name="chinanet_failed">Αποκτήστε ο καιρός αποτύχει, ελέγξτε το δίκτυο ...</string>
+    <string name="failedget">πάρετε πληροφορίες απέτυχε!</string>
+
+    <string name="nonet">κανένα δίχτυ</string>
+    <string name="cloud">Περιοδικά σύννεφα</string>
+    <string name="demotime">Τετ, 24 Ιουνίου</string>
+   <string-array name="monthnames">
+        <item>Ιανουάριος</item>
+        <item>Φεβρουάριος </item>
+        <item>Μαρτίου </item>
+        <item>Απρίλιος </item>
+        <item>Μάιος </item>
+        <item>Ιούνιος </item>
+        <item>Ιουλίου </item>
+        <item>Αύγουστος </item>
+        <item>Σεπτέμβριος </item>
+        <item>Οκτώβριος </item>
+        <item>Νοέμβριος </item>
+        <item>Δεκέμβριος </item>
+    </string-array>
+    <string name="loading">φόρτωση ...</string>
+    <string name="menu_acu">καθαρές ξένες</string>
+    <string name="menu_cen">Κίνα καθαρή</string>
+    <string name="aboutt">περίπου</string>   
+    <string name="flush">ξεπλύνετε</string>
+    <string name="menu_info">Τα τρέχοντα δεδομένα, ανάλογα με την πηγή!</string>
+    <string name="menu_acuu">Τώρα: acuuweather πηγή δεδομένων!</string>
+    <string name="menu_cent">Τώρα: Κεντρικό Μετεωρολογικό Σταθμό πηγή δεδομένων!</string><!-- midify by xia 0614 -->
+    <string name="china">Κίνα </string>   
+    <string name="about">\n1. Σε περίπτωση μη δικτυωμένο, πληροφορίες για τον καιρό εμφανίζεται ως τα μετεωρολογικά δεδομένα της τελευταίας επιτυχή δικτύωση.
+\n2. Κάντε κλικ στο "Σίτι" για να μεταβείτε σε άλλες πόλεις.
+\n3. Ξένες ιστοσελίδες, λόγω της κατασκευής του τμήματος αλλοδαπών της πόλης, που θέλετε να μεταβείτε σε άλλες πόλεις στο πλαίσιο εισαγωγής, πληκτρολογήστε η αγγλική ονομασία της πόλης.
+Και τότε η επάνω αριστερή γωνία του εικονιδίου Αναζήτησης στη λίστα αναζήτησης για την επιλογή των πόλεων που θέλετε να αλλάξετε, μπορείτε. \n
+4. Οι εγχώριες ιστοσελίδες, να ενταχθούν απευθείας στην κινεζική πόλη όνομα στη λίστα, επιλέξτε την πόλη που θέλετε να αλλάξετε, μπορείτε. \n
+5. Εσωτερικό χώρο μπορεί να υποβάλει ερώτημα μόνο την εγχώρια πληροφορίες καιρού της πόλης? Ξένα κράτη ιστοσελίδες, εγχώριες και ξένες πόλεις μπορούν να διερευνούν πιο ακριβή εγχώρια πόλεις με τις εγχώριες ιστοσελίδες. \n
+6. Χρησιμοποιώντας το ασύρματο δίκτυο ταχύτερη πρόσβαση σε πληροφορίες για τον καιρό.
+</string>
+</resources>

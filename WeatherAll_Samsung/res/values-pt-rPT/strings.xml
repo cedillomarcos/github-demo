@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- 44种天气的描述信息 -->
+	<string name="icon1">ensolarado</string>
+	<string name="icon2">Parcialmente Nublado</string>
+	<string name="icon3">parcialmente ensolarado</string>
+	<string name="icon4">Nuvens intermitentes</string>
+	<string name="icon5">sol Hazy</string>
+	<string name="icon6">Parcialmente Nublado</string>
+	<string name="icon7">nublado</string>
+	<string name="icon8">triste</string>
+	<string name="icon9">desconhecido</string>
+	<string name="icon10">desconhecido</string>
+	<string name="icon11">nevoeiro</string>
+	<string name="icon12">chuveiros</string>
+	
+	<string name="icon13">Nublado com Chuva</string>
+	<string name="icon14">Em parte ensolarado com chuveiros</string>
+	<string name="icon15">Trovoadas</string>
+	<string name="icon16">Nublado com Chuva Trovão</string>
+	<string name="icon17">Em parte ensolarado com chuveiros Trovão</string>
+	<string name="icon18">chuva</string>
+	<string name="icon19">flurries</string>
+	<string name="icon20">Nublado com Céu Limpo</string>
+	<string name="icon21">Parcialmente ensolarado com Neve</string>
+	<string name="icon22">neve</string>
+	<string name="icon23">Muito nublado com neve</string>
+	<string name="icon24">gelo</string>
+	<string name="icon25">granizo</string>
+	<string name="icon26">Chuva congelamento</string>
+	<string name="icon27">desconhecido</string>
+	<string name="icon28">desconhecido</string>
+	<string name="icon29">Chuva e neve Mixed</string>
+	<string name="icon30">quente</string>
+	<string name="icon31">frio</string>
+	<string name="icon32">ventoso</string>
+	<string name="icon33">claro</string>
+	
+	<string name="icon34">principalmente Limpar</string>
+	<string name="icon35">parcialmente Nublado</string>
+	<string name="icon36">Nuvens intermitentes</string>
+	<string name="icon37">nebuloso</string>
+	<string name="icon38">Parcialmente Nublado</string>
+	<string name="icon39">Nublado com Chuva</string>
+	<string name="icon40">Nublado com Chuva</string>
+	<string name="icon41">Nublado com Chuva Trovão</string>
+	<string name="icon42">Nublado com Chuva Trovão</string>
+	<string name="icon43">Nublado com Céu Limpo</string>
+	<string name="icon44">Muito nublado com neve</string>
+	
+	<!--星期的名称-->
+	 <string-array name="weeknames">
+	   <item>domingo</item>
+        <item>domingo</item>
+        <item>segunda-feira</item>
+        <item>terça-feira</item>
+        <item>quarta-feira</item>
+        <item>quinta-feira</item>
+        <item>sexta-feira</item>
+        <item>sábado</item>
+     </string-array>
+     
+ 	<!--高低温简称-->
+    <string name="h">A:</string>
+    <string name="l">B:</string>     
+ <!--设为本地城市-->   
+ <string name="setcity">Definir locais da cidade</string>
+ <!--提示城市设置成功-->    
+	 <string name="set">Sucesso cidade Set</string>
+<!--提示输入城市名-->	 
+ <string name="citysearchinfo">nome da cidade de entrada</string>
+ 
+<!--当前城市-->	
+  <string name="currentcity">Cidade Atual:</string>
+<!--弹框提示信息-->	
+    <string name="alert_dialog_city_noinput">inome da cidade de entrada por favor!</string>
+<!--对话框标题-->	    
+    <string name="alert_dialog_city_list">Selecioná-lo da cidade</string>
+<!--没搜到城市 -->    
+    <string name="alert_dialog_city_not_found">Cidade não encontrado</string>
+ <!--确定 -->   
+    <string name="alert_dialog_ok">determinar</string>
+ <!--正在搜索城市-->       
+    <string name="progress_search_city">Pesquisando cidade ...</string>
+<!--添加城市 -->    
+    <string name="addcity">adicionar cidade</string>
+ <!--确定 -->     
+    <string name="add_ok">determinar</string>
+<!--取消 -->    
+    <string name="add_cancel">cancelar</string>
+    
+<!--应用名称 -->      
+<string name="app_name">tempo emoção</string>
+
+
+    <string name="delete_warning">aviso </string>
+    <string name="delete_message"> você tem certeza de apagar? \u0020</string>
+
+<!-- add -->
+     <string name="c_hint">输入中文地名</string>	
+    <string name="netbusy">a rede está ocupada, tente mais tarde!</string>
+    <string name="chinanet_failed">Obter o tempo falhar, verifique a rede ...</string>
+    <string name="failedget">obter informações falhou!</string>
+
+    <string name="nonet">não net</string>
+    <string name="cloud">Nuvem intermitente</string>
+    <string name="demotime">Qua, 24 de junho</string>
+   <string-array name="monthnames">
+        <item>Janeiro</item>
+        <item>Fevereiro </item>
+        <item>Março </item>
+        <item>Abril </item>
+        <item>Maio </item>
+        <item>Junho </item>
+        <item>Julho </item>
+        <item>Agosto </item>
+        <item>Setembro </item>
+        <item>Outubro </item>
+        <item>Novembro </item>
+        <item>Dezembro </item>
+    </string-array>
+    <string name="loading">loading...</string>
+    <string name="menu_acu">externa líquida</string>
+    <string name="menu_cen">china net</string>
+    <string name="aboutt">sobre</string>   
+    <string name="flush">nivelar</string>
+    <string name="menu_info">Os dados atuais, de acordo com a fonte!</string>
+    <string name="menu_acuu">Agora: acuuweather fonte de dados!</string>
+    <string name="menu_cent">Agora: Estação Meteorológica Central da fonte de dados!</string><!-- midify by xia 0614 -->
+    <string name="china">China</string>   
+    <string name="about">\n1. No caso de não-rede, as informações do tempo é apresentado como os dados meteorológicos da rede último sucesso.
+\n2. Clique no botão "City" botão para mudar para outras cidades. 
+\n3.Sites estrangeiros, por causa da parte construída da cidade estrangeira, você quer mudar para outras cidades na caixa de entrada, insira o nome em Inglês da cidade.E então o canto superior esquerdo do ícone Pesquisar na lista de pesquisa para selecionar as cidades que você quer mudar, você pode.  \n
+4.Sites nacionais, entrar diretamente o nome da cidade chinesa em lista, selecione a cidade que você quiser mudar, você pode.  \n
+5.Site Interno só pode consultar as informações do tempo interno da cidade; Estados estrangeiros sites, cidades nacionais e estrangeiras pode consultar mais precisos cidades nacionais com sites nacionais.   \n
+6.  Usando a rede wi-fi acesso mais rápido a informações sobre o tempo.
+</string>
+</resources>

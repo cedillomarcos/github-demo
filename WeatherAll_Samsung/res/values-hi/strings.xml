@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- 44种天气的描述信息 -->
+	<string name="icon1">सनी</string>
+	<string name="icon2">अधिकतर सनी</string>
+	<string name="icon3">आंशिक रूप से सनी</string>
+	<string name="icon4">आंतरायिक बादल</string>
+	<string name="icon5">धुंध सनशाइन</string>
+	<string name="icon6">आंशिक रूप से बादलमय</string>
+	<string name="icon7">धूमिल</string>
+	<string name="icon8">सुनसान</string>
+	<string name="icon9">अज्ञात</string>
+	<string name="icon10">अज्ञात</string>
+	<string name="icon11">कोहरा</string>
+	<string name="icon12">झड़ी</string>
+	<string name="icon13">वर्षा के साथ अधिकतर बादलमय</string>
+	<string name="icon14">आंशिक रूप से वर्षा के साथ सनी</string>
+	<string name="icon15">गरज</string>
+	<string name="icon16">गरज के साथ वर्षा के साथ अधिकतर बादलमय</string>
+	<string name="icon17">गरज के साथ वर्षा के साथ आंशिक रूप से सनी</string>
+	<string name="icon18">बारिश</string>
+	<string name="icon19">आंधी</string>
+	<string name="icon20">हवा के साथ अधिकतर बादलमय</string>
+	<string name="icon21">आंशिक रूप से हवा के साथ सनी</string>
+	<string name="icon22">बर्फ</string>
+	<string name="icon23">हिम के साथ बदली</string>
+	<string name="icon24">बर्फ</string>
+	<string name="icon25">ओले के साथ वर्षा</string>
+	<string name="icon26">बर्फ़ीली बारिश</string>
+	<string name="icon27">अज्ञात</string>
+	<string name="icon28">अज्ञात</string>
+	<string name="icon29">वर्षा और मिश्रित संभावना</string>
+	<string name="icon30">गरम</string>
+	<string name="icon31">ठंड</string>
+	<string name="icon32">तूफानी</string>
+	<string name="icon33">स्पष्ट</string>
+	<string name="icon34">अधिकतर साफ</string>
+	<string name="icon35">आंशिक रूप से बादलमय</string>
+	<string name="icon36">आंतरायिक बादल</string>
+	<string name="icon37">धुंधला</string>
+	<string name="icon38">आंशिक रूप से बादलमय</string>
+	<string name="icon39">वर्षा के साथ आंशिक रूप से बादलमय</string>
+	<string name="icon40">वर्षा के साथ अधिकतर बादलमय</string>
+	<string name="icon41">गरज के साथ वर्षा के साथ आंशिक रूप से बादलमय</string>
+	<string name="icon42">गरज के साथ वर्षा के साथ अधिकतर बादलमय</string>
+	<string name="icon43">हवा के साथ अधिकतर बादलमय</string>
+	<string name="icon44">हिम के साथ बदली</string>
+	
+	<!--星期的名称-->
+	 <string-array name="weeknames">
+	    <item>रविवार</item>
+        <item>रविवार</item>
+        <item>सोमवार</item>
+        <item>मंगलवार</item>
+        <item>बुधवार</item>
+        <item>बृहस्पतिवार</item>
+        <item>शुक्रवार</item>
+        <item>शनिवार</item>
+     </string-array>
+     
+ 	<!--高低温简称-->
+    <string name="h">उच्च:</string>
+    <string name="l">निम्न:</string>     
+ <!--设为本地城市-->   
+ <string name="setcity">स्थानीय नगर सेट</string>
+ <!--提示城市设置成功-->    
+	 <string name="set">शहर सेट सफलता</string>
+<!--提示输入城市名-->	 
+ <string name="citysearchinfo">इनपुट शहर का नाम</string>
+ 
+<!--当前城市-->	
+  <string name="currentcity">वर्तमान शहर:</string>
+<!--弹框提示信息-->	
+    <string name="alert_dialog_city_noinput">कृपया इनपुट शहर का नाम!</string>
+<!--对话框标题-->	    
+    <string name="alert_dialog_city_list">आप नगर चुनें</string>
+<!--没搜到城市 -->    
+    <string name="alert_dialog_city_not_found">नहीं सिटी मिला</string>
+ <!--确定 -->   
+    <string name="alert_dialog_ok">ठीक</string>
+ <!--正在搜索城市-->       
+    <string name="progress_search_city">शहर खोज रहा है ...</string>
+<!--添加城市 -->    
+    <string name="addcity">शहर जोड़ने</string>
+ <!--确定 -->     
+    <string name="add_ok">ठीक है</string>
+<!--取消 -->    
+    <string name="add_cancel">रद्द</string>
+    
+<!--应用名称 -->      
+<string name="app_name">जज्बात मौसम</string>
+
+    <string name="delete_warning">चेतावनी </string>
+    <string name="delete_message">आप हटाना सुनिश्चित कर रहे हैं?\u0020</string>
+
+
+<!-- add -->
+     <string name="c_hint">输入中文地名</string>	
+    <string name="netbusy">नेट व्यस्त है, यह बाद में प्रयास करें!</string>
+    <string name="chinanet_failed">मौसम में विफल रहता है हो जाओ करने के लिए, नेटवर्क की जाँच करें ...</string>
+    <string name="failedget">जानकारी में विफल रहा है!</string>
+
+    <string name="nonet">नहीं शुद्ध</string>
+    <string name="cloud">आंतरायिक बादल</string>
+    <string name="demotime">ed, 24 जून</string>
+   <string-array name="monthnames">
+        <item>जनवरी</item>
+        <item>फ़रवरी </item>
+        <item>मार्च </item>
+        <item>अप्रैल</item>
+        <item>मई</item>
+        <item>जून</item>
+        <item>जुलाई </item>
+        <item>अगस्त </item>
+        <item>सितम्बर </item>
+        <item>अक्टूबर </item>
+        <item>नवम्बर </item>
+        <item>दिसम्बर </item>
+    </string-array>
+    <string name="loading">लोड हो रहा है ...</string>
+    <string name="menu_acu">विदेशी शुद्ध</string>
+    <string name="menu_cen">चीन शुद्ध</string>
+    <string name="aboutt">के बारे में</string>   
+    <string name="flush">फ्लश</string>
+    <string name="menu_info">मौजूदा डेटा स्रोत के लिए अनुसार!</string>
+    <string name="menu_acuu">अब: acuuweather डेटा स्रोत!</string>
+    <string name="menu_cent">अब: केन्द्रीय मौसम स्टेशन डेटा स्रोत!</string><!-- midify by xia 0614 -->
+    <string name="china">चीन </string>   
+    <string name="about">\n1. गैर नेटवर्क के मामले में, मौसम की जानकारी पिछले सफल नेटवर्किंग के मौसम डेटा के रूप में प्रदर्शित होता है.
+\n2.  शहर अन्य शहरों के लिए स्विच करने के लिए बटन पर क्लिक करें.
+\n3. विदेशी वेबसाइटों, विदेशी शहर का हिस्सा बनाया की वजह से, आप के लिए इनपुट बॉक्स में अन्य शहरों के लिए स्विच करना चाहते हैं, शहर के अंग्रेजी नाम दर्ज करें.
+और तब खोज चिह्न खोज सूची में शहरों का चयन करने के ऊपरी - बाएँ कोने में आप स्विच करना चाहते हैं, तो आप कर सकते हैं. \n
+4. घरेलू वेबसाइटों, सीधे सूची में चीनी शहर का नाम दर्ज करें, शहर का चयन करें जिसे आप स्विच करना चाहते हैं, तो आप कर सकते हैं. \n
+5. घरेलू साइट केवल घरेलू शहर के मौसम की जानकारी क्वेरी कर सकते हैं, विदेशी वेबसाइटों राज्यों, घरेलू और विदेशी शहरों में घरेलू वेबसाइटों के साथ और अधिक सटीक घरेलू शहरों क्वेरी कर सकते हैं. \n
+6. वाईफ़ाई नेटवर्क तेजी से मौसम की जानकारी का उपयोग करने का उपयोग करना.
+</string>
+    
+</resources>

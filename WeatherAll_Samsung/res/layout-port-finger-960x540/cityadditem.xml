@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/setcitylayout"
+	android:layout_width="fill_parent"
+	android:paddingLeft="10dp"
+	android:layout_height="40dp"
+	android:gravity="center_vertical"
+	>
+		<TextView  
+	        android:id="@+id/icon"
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content"
+		    android:textSize="16dp"
+		    android:layout_marginLeft="0dp"
+		    android:layout_marginRight="6dp"
+		    android:text="@string/currentcity"
+		    >
+		</TextView>
+		<TextView android:id="@+id/text1"
+			android:layout_width="wrap_content"		
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="0dp"
+			android:textSize="16dp"
+			android:textColor="@color/citylistcolor"
+			>
+		</TextView>
+</LinearLayout>
+
+<!-- android:background="@drawable/citylistitem"  -->

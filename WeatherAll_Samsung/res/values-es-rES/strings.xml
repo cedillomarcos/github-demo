@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- 44种天气的描述信息 -->
+	<string name="icon1">soleado</string>
+	<string name="icon2">soleado</string>
+	<string name="icon3">parcialmente nublado</string>
+	<string name="icon4">Algo nublado</string>
+	<string name="icon5">sol Hazy</string>
+	<string name="icon6">Parcialmente nublado</string>
+	<string name="icon7">nublado</string>
+	<string name="icon8">triste</string>
+	<string name="icon9">desconocido</string>
+	<string name="icon10">desconocido</string>
+	<string name="icon11">niebla</string>
+	<string name="icon12">duchas</string>
+	<string name="icon13">Parcialmente nublado con chubascos</string>
+	<string name="icon14">Parcialmente soleado con chubascos</string>
+	<string name="icon15">tormentas</string>
+	
+	<string name="icon16">Parcialmente nublado con chaparrones</string>
+	<string name="icon17">Parcialmente nublado con chaparrones</string>
+	<string name="icon18">lluvia</string>
+	<string name="icon19">Nevadas</string>
+	<string name="icon20">Mayormente Nublado con Chubascos</string>
+	
+	<string name="icon21">Parcialmente soleado con Nieve</string>
+	<string name="icon22">nieve</string>
+	<string name="icon23">Parcialmente nublado con nieve</string>
+	<string name="icon24">hielo</string>
+	<string name="icon25">aguanieve</string>
+	
+	<string name="icon26">Chubascos de nieve</string>
+	<string name="icon27">desconocido</string>
+	<string name="icon28">desconocido</string>
+	<string name="icon29">Lluvias y nieve</string>
+	<string name="icon30">caliente</string>
+	<string name="icon31">frío</string>
+	<string name="icon32">ventoso</string>
+	<string name="icon33">claro</string>
+	<string name="icon34">Despejado</string>
+	<string name="icon35">parcialmente nublado</string>
+	
+	<string name="icon36">Algo nublado</string>
+	<string name="icon37">brumoso</string>
+	<string name="icon38">Parcialmente nublado</string>
+	<string name="icon39">Parcialmente nublado con chubascos</string>
+	<string name="icon40">Parcialmente nublado con chubascos</string>
+	<string name="icon41">Parcialmente nublado con chaparrones</string>
+	<string name="icon42">Parcialmente nublado con chaparrones</string>
+	<string name="icon43">Mayormente Nublado con Chubascos</string>
+	<string name="icon44">Parcialmente nublado con nieve</string>
+	
+	<!--星期的名称-->
+	 <string-array name="weeknames">
+	    <item>domingo</item>
+        <item>domingo</item>
+        <item>lunes</item>
+        <item>martes</item>
+        <item>miércoles</item>
+        <item>jueves</item>
+        <item>viernes</item>
+        <item>sábado</item>
+     </string-array>
+     
+ 	<!--高低温简称-->
+    <string name="h">A:</string>
+    <string name="l">B:</string>     
+ <!--设为本地城市-->   
+ <string name="setcity">Conjunto local de la ciudad</string>
+ <!--提示城市设置成功-->    
+	 <string name="set">El éxito de la ciudad Set</string>
+<!--提示输入城市名-->	 
+ <string name="citysearchinfo">entrada de nombre de la ciudad</string>
+ 
+<!--当前城市-->	
+  <string name="currentcity">actual de la ciudad</string>
+<!--弹框提示信息-->	
+    <string name="alert_dialog_city_noinput">introducir el nombre de la ciudad por favor!</string>
+<!--对话框标题-->	    
+    <string name="alert_dialog_city_list">Seleccione su ciudad</string>
+<!--没搜到城市 -->    
+    <string name="alert_dialog_city_not_found">Ciudad que no se encuentran</string>
+ <!--确定 -->   
+    <string name="alert_dialog_ok">Aceptar</string>
+ <!--正在搜索城市-->       
+    <string name="progress_search_city">SBúsqueda de la ciudad ...</string>
+<!--添加城市 -->    
+    <string name="addcity">añadir ciudad</string>
+ <!--确定 -->     
+    <string name="add_ok">Aceptar</string>
+<!--取消 -->    
+    <string name="add_cancel">CANCELAR</string>
+    
+<!--应用名称 -->      
+<string name="app_name">La emoción del tiempo</string>
+    <string name="delete_warning">advertencia </string>
+    <string name="delete_message">¿Estás seguro de que desea eliminar?\u0020</string>
+ 
+ <string name="c_hint">输入中文地名</string>	
+    <string name="netbusy">la red está ocupada, intente más tarde!</string>
+    <string name="chinanet_failed">Obtener el tiempo, compruebe la red ...</string>   
+    <string name="failedget">Error al obtener información!</string>
+    <string name="nonet">No neta</string>
+    <string name="cloud">Nube intermitente</string>
+    <string name="demotime">Miércoles, 24 de junio</string>
+   <string-array name="monthnames">
+        <item>enero</item>
+        <item>febrero </item>
+        <item>marzo</item>
+        <item>abril </item>
+        <item>mayo </item>
+        <item>junio </item>
+        <item>julio </item>
+        <item>agosto </item>
+        <item>septiembre</item>
+        <item>octubre </item>
+        <item>de noviembre</item>
+        <item>diciembre</item>
+    </string-array>
+    <string name="loading">carga ...</string>
+    <string name="menu_acu">extranjera neta</string>
+    <string name="menu_cen">china neta</string>
+    <string name="aboutt">sobre</string>  
+    <string name="flush">enjuagar</string>
+
+    <string name="menu_info">Los datos actuales, de acuerdo a la fuente!</string>
+    <string name="menu_acuu">Ahora: acuuweather fuente de datos!</string>
+    <string name="menu_cent">Ahora: la Estación Meteorológica Central del origen de datos!</string><!-- midify by xia 0614 -->
+    <string name="china">China</string> 
+ <string name="about">\n1.En el caso de que no esté en red, la información del tiempo se muestra como los datos 
+meteorológicos de la última la creación de redes con éxito.
+\n2. Haga clic en la "Ciudad" para cambiar a otras ciudades.
+\n3. Sitios web extranjeros, a causa de la parte construida de la ciudad extranjera, que desee 
+
+cambiar a otras ciudades en el cuadro de entrada, introduzca el nombre de Inglés de la ciudad.
+Y luego la esquina superior izquierda del icono de búsqueda en la lista de búsqueda para seleccionar 
+
+las ciudades que desea cambiar, puede hacerlo. \n
+4. Sitios web nacionales, introducir directamente el nombre de la ciudad china en la lista, seleccione la ciudad que desea cambiar, puede hacerlo.  \n
+5. Sitio nacional sólo se puede consultar la información de la ciudad el clima interno; Estados sitios web extranjeros, las ciudades nacionales y extranjeras pueden consultar las ciudades nacionales más precisos con los sitios web nacionales. \n
+6.Uso de la red wifi más rápido el acceso a la información meteorológica.
+</string>
+
+
+</resources>

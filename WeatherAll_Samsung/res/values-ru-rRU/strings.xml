@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- 44种天气的描述信息 -->
+	<string name="icon1">солнечный</string>
+	<string name="icon2">Преимущественно солнечно</string>
+	<string name="icon3">Возможен дождь</string>
+	<string name="icon4">Прерывистый облака</string>
+	<string name="icon5">Туманное Саншайн</string>
+	<string name="icon6">Переменная облачность</string>
+	<string name="icon7">облачный</string>
+	<string name="icon8">тоскливый</string>
+	<string name="icon9">неизвестный</string>
+	<string name="icon10">неизвестный</string>
+	<string name="icon11">туман</string>
+	<string name="icon12">дожди</string>
+	<string name="icon13">Переменная облачность с дождем</string>
+	<string name="icon14">Возможен снег с дождем</string>
+	<string name="icon15">Грозы</string>
+	<string name="icon16">Облачно с Громовой дождь</string>
+	<string name="icon17">Возможен дождь с Громовой дождь</string>
+	<string name="icon18">дождь</string>
+	<string name="icon19">порывы</string>
+	<string name="icon20">Облачно с Снегопад</string>
+	<string name="icon21">Возможен дождь с Снегопад</string>
+	<string name="icon22">снег</string>
+	<string name="icon23">Переменная облачность, мокрый снег</string>
+	<string name="icon24">лед</string>
+	<string name="icon25">мокрый снег</string>
+	<string name="icon26">ледяной дождь</string>
+	<string name="icon27">неизвестный</string>
+	<string name="icon28">неизвестный</string>
+	<string name="icon29">Дождь и снег Смешанные</string>
+	<string name="icon30">горячий</string>
+	<string name="icon31">холодный</string>
+	<string name="icon32">ветреный</string>
+	<string name="icon33">ясно</string>
+	<string name="icon34">Переменная облачность</string>
+	<string name="icon35">Ясно</string>
+	<string name="icon36">Прерывистый облака</string>
+	<string name="icon37">туманный</string>
+	<string name="icon38">Переменная облачность</string>
+	<string name="icon39">Ясно с душем</string>
+	<string name="icon40">Переменная облачность с дождем</string>
+	<string name="icon41">Ясно с Громовой дождь</string>
+	<string name="icon42">Облачно с Громовой дождь</string>
+	<string name="icon43">Облачно с Снегопад</string>
+	<string name="icon44">Переменная облачность, мокрый снег</string>
+	
+	<!--星期的名称-->
+	 <string-array name="weeknames">
+	    <item>воскресенье</item>
+        <item>воскресенье</item>
+        <item>понедельник</item>
+        <item>вторник</item>
+        <item>среда</item>
+        <item>четверг</item>
+        <item>пятница</item>
+        <item>суббота</item>
+     </string-array>
+     
+ 	<!--高低温简称-->
+    <string name="h">B:</string>
+    <string name="l">H:</string>     
+ <!--设为本地城市-->   
+ <string name="setcity">Установить местные города</string>
+ <!--提示城市设置成功-->    
+	 <string name="set">Город Установить Успеха</string>
+<!--提示输入城市名-->	 
+ <string name="citysearchinfo">ввода имени города</string>
+ 
+<!--当前城市-->	
+  <string name="currentcity">Место жительства:</string>
+<!--弹框提示信息-->	
+    <string name="alert_dialog_city_noinput">ввода имени города, пожалуйста!</string>
+<!--对话框标题-->	    
+    <string name="alert_dialog_city_list">Выберите вам город</string>
+<!--没搜到城市 -->    
+    <string name="alert_dialog_city_not_found">Город не найден</string>
+ <!--确定 -->   
+    <string name="alert_dialog_ok">определять</string>
+ <!--正在搜索城市-->       
+    <string name="progress_search_city">Поиск города ... </string>
+<!--添加城市 -->    
+    <string name="addcity">добавить город</string>
+ <!--确定 -->     
+    <string name="add_ok">определять</string>
+<!--取消 -->    
+    <string name="add_cancel">отменить</string>
+    
+<!--应用名称 -->      
+<string name="app_name">Эмоции Погода</string>
+
+    <string name="delete_warning">предупреждение</string>
+    <string name="delete_message">Вы действительно хотите удалить?\u0020</string>
+
+<!-- add -->
+     <string name="c_hint">输入中文地名</string>	
+    <string name="netbusy">Чистая занят, попробуйте позже!</string>
+    <string name="chinanet_failed">Получить погода не поможет, проверьте сеть ...</string>
+    <string name="failedget">получить информацию не удалось!</string>
+    <string name="nonet">Нет чистой</string>
+    <string name="cloud">Прерывистый облака</string>
+    <string name="demotime">Wed, 24 июня</string>
+    
+   <string-array name="monthnames">
+        <item>январь</item>
+        <item>февраль</item>
+        <item>март</item>
+        <item>апрель</item>
+        <item>май</item>
+        <item>июнь</item>
+        <item>июль</item>
+        <item>август</item>
+        <item>сентябрь</item>
+        <item>октябрь</item>
+        <item>ноябрь</item>
+        <item>декабрь</item>
+    </string-array>
+    <string name="loading">Загрузка ...</string>
+    <string name="menu_acu">иностранных чистый</string>
+    <string name="menu_cen">Китай чистый</string>
+    <string name="aboutt">о</string>   
+    <string name="flush">заподлицо</string>
+    
+    <string name="menu_info">Текущие данные, по словам источника!</string>
+    <string name="menu_acuu">Сейчас: acuuweather источника данных!</string>
+    <string name="menu_cent">Сейчас: Центральная метеорологическая станция источника данных!</string><!-- midify by xia 0614 -->
+    <string name="china">Китай </string> 
+      
+    <string name="about">\n1. В случае не-сетевых, информация о погоде отображается погода данным последней успешных сетей.
+\n2. Нажмите на кнопку "City", чтобы перейти к другим городам.
+\n3. Иностранные сайты, из-за встроенной частью чужой город, вы хотите, чтобы перейти к другим горо дам в поле ввода введите Английское название города.А потом верхнем левом углу значка поиска в списке поиска, чтобы выбрать города, которые вы хотите пе рейти, вы можете. \n
+4. Внутренние сайты, непосредственно выйти на китайский названия города в списке, выберите город вы хотите перейти, вы можете. \n
+5. Внутренний сайт может только запросить информацию о погоде внутренний город, иностранным государс
+твам веб-сайтов, отечественных и зарубежных городов могут запросить более точные внутренние города с внутренним веб-сайтов.  \n
+6. Использование беспроводной сети быстрый доступ к информации о погоде.
+
+</string>
+    
+
+</resources>

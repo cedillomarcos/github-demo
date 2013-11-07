@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- 44种天气的描述信息 -->
+        <string name="icon0">แดดจัด</string>
+	<string name="icon1">แดดจัด</string>
+	<string name="icon2">ซันนี่เป็นส่วนใหญ่</string>
+	<string name="icon3">ซันนี่เป็นส่วน ๆ</string>
+	<string name="icon4">มีเมฆเป็นระยะ ๆ</string>
+	<string name="icon5">ซันไชน์หมอก</string>
+	<string name="icon6">ท้องฟ้าแจ่มใส</string>
+	<string name="icon7">มีเมฆ</string>
+	<string name="icon8">น่าเบื่อ</string>
+	<string name="icon9">ไม่ทราบ</string>
+	<string name="icon10">ไม่ทราบ</string>
+	<string name="icon11">หมอก</string>
+	<string name="icon12">ห้องอาบน้ำฝักบัว</string>
+	<string name="icon13">มีเมฆพร้อมห้องอาบน้ำ</string>
+	<string name="icon14">แจ่มใสมีแดดพร้อมห้องอาบน้ำ</string>
+	<string name="icon15">พายุฝนฟ้าคะนอง</string>
+	<string name="icon16">มีเมฆพร้อมห้องอาบน้ำทันเดอร์</string>
+	<string name="icon17">แจ่มใสมีแดดพร้อมห้องอาบน้ำทันเดอร์</string>
+	<string name="icon18">ฝนตก</string>
+	<string name="icon19">ฝนตกปรอยๆ</string>
+	<string name="icon20">มีเมฆที่มีฝนตกปรอยๆ</string>
+	<string name="icon21">บางส่วนที่มีฝนตกปรอยๆซันนี่</string>
+	<string name="icon22">หิมะ</string>
+	<string name="icon23">มีเมฆคลุมไปด้วยหิมะ</string>
+	<string name="icon24">น้ำแข็ง</string>
+	<string name="icon25">ฝนตกเป็นลูกเห็บ</string>
+	<string name="icon26">ฝนน้ำแข็ง</string>
+	<string name="icon27">ไม่ทราบ</string>
+	<string name="icon28">ไม่ทราบ</string>
+	<string name="icon29">ฝนและหิมะผสม </string>
+	<string name="icon30">ร้อน</string>
+	<string name="icon31">เย็น</string>
+	<string name="icon32">ลมแรง</string>
+	<string name="icon33">ล้าง</string>
+	<string name="icon34">แจ่มใสเป็นส่วนใหญ่</string>
+	<string name="icon35">มีเมฆบางส่วน</string>
+	<string name="icon36">มีเมฆเป็นระยะ ๆ</string>
+	<string name="icon37">สลัว</string>
+	<string name="icon38">ท้องฟ้าแจ่มใส</string>
+	<string name="icon39">มีเมฆพร้อมห้องอาบน้ำ</string>
+	<string name="icon40">มีเมฆพร้อมห้องอาบน้ำ</string>
+	<string name="icon41">มีเมฆพร้อมห้องอาบน้ำทันเดอร์</string>
+	<string name="icon42">มีเมฆพร้อมห้องอาบน้ำทันเดอร์</string>
+	<string name="icon43">มีเมฆที่มีฝนตกปรอยๆ</string>
+	<string name="icon44">มีเมฆคลุมไปด้วยหิมะ</string>
+	 <!-- 泰国城市 on-->
+    	<string name="bangkok">กรุงเทพมหานคร</string>
+    	<string name="chaiyaphum">ชัยภูมิ</string>
+    	<string name="chanthaburi">จันทบุรี</string>    
+    	<string name="chiangmai">เชียงใหม่</string>
+    	<string name="chiangrai">เชียงราย</string>
+    	<string name="chonburi">ชลบุรี</string> 
+    	<string name="chumphon">ชุมพร</string>
+	<string name="haadyai">หาดใหญ</string>
+	<string name="huahin">หัวหิน</string>
+    	<string name="kamphang">กำแพงเพชร</string>
+	<string name="lampang">ลำปาง</string>
+	<string name="lopburi">ลพบุรี</string>
+	<string name="nakhonpathom">นครปฐม</string>
+	<string name="nakhonsawan">นครสว รรค์</string>
+	<string name="nongkhai">หนองคาย</string>
+	<string name="pattaya">พัทยา</string>
+	<string name="phitsanulok">พิษณุโลก</string>
+	<string name="phuket">ภูเก็ต</string>
+	<string name="saraburi">สระบุรี</string>
+	<string name="suphanburi">สุพรรณบุรี</string>
+	<string name="songkhla">สงขลา</string>
+	<string name="takhli">ตาคลี</string>
+	<string name="udonthani">อุดรธานี</string>
+	<string name="trang">ตรัง</string>
+   <!-- 泰国城市 off--> 
+
+	<!--星期的名称-->
+	 <string-array name="weeknames">
+	 <item>วันอาทิตย์</item>
+        <item>วันอาทิตย์</item>
+        <item>วันจันทร์</item>
+        <item>วันอังคาร</item>
+        <item>วันพุธ</item>
+        <item>วันพฤหัสบดี</item>
+        <item>วันศุกร์</item>
+        <item>วันเสาร์</item>
+     </string-array>
+     
+ 	<!--高低温简称-->
+    <string name="h">สูง:</string>
+    <string name="l">ต่ำ:</string>     
+ <!--设为本地城市-->   
+ <string name="setcity">ตั้งเมืองในท้องถิ่น</string>
+ <!--提示城市设置成功-->    
+	 <string name="set"> ที่ประสบความสำเร็จตั้งเมือง!</string>
+<!--提示输入城市名-->	 
+ <string name="citysearchinfo">ใส่ชื่อเมือง</string>
+ 
+<!--当前城市-->	
+  <string name="currentcity">เมืองปัจจุบัน:</string>
+<!--弹框提示信息-->	
+    <string name="alert_dialog_city_noinput">ใส่ชื่อเมืองโปรด!</string>
+<!--对话框标题-->	    
+    <string name="alert_dialog_city_list">คุณเลือกเมือง</string>
+<!--没搜到城市 -->    
+    <string name="alert_dialog_city_not_found">ซิตี้ไม่พบ</string>
+ <!--确定 -->   
+    <string name="alert_dialog_ok">ตกลง</string>
+ <!--正在搜索城市-->       
+    <string name="progress_search_city">ค้นหาเมือง ... </string>
+<!--添加城市 -->    
+    <string name="addcity">เพิ่ม เมือง</string>
+ <!--确定 -->     
+    <string name="add_ok">ตกลง</string>
+<!--取消 -->    
+    <string name="add_cancel">ยกเลิก</string>
+    
+<!--应用名称 -->      
+<string name="app_name">อากาศอารมณ์</string>
+
+    <string name="delete_warning">เตือน </string>
+    <string name="delete_message">คุณแน่ใจที่จะลบหรือไม่ \u0020</string>
+
+<!-- add -->
+     <string name="c_hint">输入中文地名</string>	
+    <string name="netbusy">สุทธิไม่ว่างลองได้ในภายหลัง!</string>
+    <string name="chinanet_failed">รับสภาพอากาศที่ล้มเหลวตรวจสอบเครือข่าย ...</string>
+    <string name="failedget">ได้รับข้อมูลล้มเหลว!</string>
+
+    <string name="nonet">สุทธิไม่มี</string>
+    <string name="cloud">มีเมฆเป็นระยะ ๆ</string>
+    <string name="demotime">พ. 24 มิ.ย.</string>
+   <string-array name="monthnames">
+        <item>มกราคม </item>
+        <item>กุมภาพันธ์ </item>
+        <item>มีนาคม </item>
+        <item>เมษายน</item>
+        <item>พฤษภาคม</item>
+        <item>มิถุนายน</item>
+        <item>กรกฏาคม</item>
+        <item>สิงหาคม </item>
+        <item>กันยายน </item>
+        <item>ตุลาคม </item>
+        <item>พฤศจิกายน </item>
+        <item>ธันวาคม </item>
+    </string-array>
+    <string name="loading">โหลด ...</string>
+    <string name="menu_acu">สุทธิจากต่างประเทศ</string>
+    <string name="menu_cen">สุทธิจีน</string>
+    <string name="aboutt">เกี่ยวกับ</string>   
+    <string name="flush">เปี่ยม</string>
+    <string name="menu_info">ข้อมูลปัจจุบันตามแหล่งที่มา!</string>
+    <string name="menu_acuu">ขณะนี้: แหล่งข้อมูล acuuweather!</string>
+    <string name="menu_cent">ขณะนี้: เซ็นทรัลแหล่งข้อมูลสถานีตรวจอากาศ!</string><!-- midify by xia 0614 -->
+    <string name="china">จีน</string>   
+    <string name="about">\n1. ในกรณีที่ไม่ใช่เครือข่ายข้อมูลสภาพอากาศไม่ว่าจะเป็นข้อมูลสภาพอากาศของเครือข่ายที่ประสบความสำเร็จล่าสุด
+\n2. คลิกที่ "ซิตี้" ปุ่มเพื่อสลับไปยังเมืองอื่น ๆ
+\n3. เว็บไซต์ของต่างประเทศเนื่องจากเป็นส่วนหนึ่งที่สร้างขึ้นจากเมืองต่างประเทศที่คุณต้องการเพื่อสลับไปยังเมืองอื่น ๆ ในกล่องใส่ให้ใส่ชื่อภาษาอังกฤษของเมือง
+และจากนั้นที่มุมบนซ้ายของไอคอนค้นหาในรายการค้นหาเพื่อเลือกเมืองที่คุณต้องการสลับที่คุณสามารถ \n
+4.เว็บไซต์ภายในประเทศโดยตรงใส่ชื่อเมืองจีนในรายการให้เลือกเมืองที่คุณต้องการที่จะเปลี่ยนคุณสามารถ  \n
+5. เว็บไซต์ในประเทศเท่านั้นสามารถสอบถามข้อมูลเมืองในประเทศสภาพอากาศ; States เว็บไซต์ของต่างประเทศ, เมืองในประเทศและต่างประเทศสามารถสอบถามเมืองในประเทศถูกต้องมากขึ้นกับเว็บไซต์ในประเทศ \n
+6. การใช้เครือข่าย wifi เข้าถึงได้เร็วขึ้นถึงข้อมูลสภาพอากาศ
+</string>
+    
+
+</resources>
