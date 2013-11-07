@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    History:
+    1.huangyujie@reallytek.com 20130122 BUG_ID:GWLQSW-65
+      Description: add multi-select feature to delete musics.
+-->
+
+<!-- add GPBLJ-171 liyang start -->
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<ListView
+	    android:id="@+id/SelectList"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:fastScrollEnabled="true"
+		android:focusable="true">
+	</ListView>
+</LinearLayout>
+<!-- add GPBLJ-171 liyang end -->

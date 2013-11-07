@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="icon_alpha">110</integer><!-- 点击图标时的阴影alpha值 -->
+    <integer name="invalidate_sleep">20</integer><!-- 抖动动画刷屏间隔时间 --> 
+    
+    <integer name="short_Axis_Cells">4</integer>
+    <integer name="long_Axis_Cells">5</integer>
+    
+    <integer name="calendar_weak_text_size">11</integer>
+    <integer name="calendar_weak_date_size">37</integer>
+    
+</resources>

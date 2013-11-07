@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.rlk.scene.FolderLinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:launcher="http://schemas.android.com/apk/res/com.rlk.scene"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:orientation="vertical" android:id="@+id/body">
+
+	<com.rlk.scene.IphoneClearEditText
+		android:layout_width="wrap_content" android:layout_height="26dip"
+		android:id="@+id/edit_title" android:layout_marginLeft="8dip"
+		android:layout_marginRight="8dip" android:layout_marginTop="10dip"
+		launcher:contactEdtBg="@drawable/iphonesearch_bg"
+		launcher:contactEdtTextpaddingLeft="10dip" android:visibility="gone" />
+
+	<TextView android:id="@+id/text_title" android:layout_width="wrap_content"
+		android:layout_height="26dip" android:textSize="18sp"
+		android:textColor="@android:color/white" android:textStyle="bold"
+		android:layout_marginLeft="10dip" android:layout_marginTop="10dip"
+		android:background="@android:color/transparent" />
+
+	<com.rlk.scene.CellLayout
+		android:id="@+id/cell_layout" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" launcher:cellWidth="80dip"
+		launcher:cellHeight="95dip" launcher:longAxisStartPadding="0dip"
+		launcher:longAxisEndPadding="15dip" launcher:shortAxisStartPadding="0dip"
+		launcher:shortAxisEndPadding="0dip" launcher:shortAxisCells="4"
+		launcher:longAxisCells="4" />
+</com.rlk.scene.FolderLinearLayout>
+

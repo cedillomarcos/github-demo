@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    History:
+    1. huangyujie@reallytek.com 20130122 BUG_ID:GWLQSW-65
+       Description: add multi-select feature to delete musics.
+-->
+
+<!-- add GPBLJ-171 liyang start -->
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:layout_marginLeft="8dip"
+	android:layout_marginRight="15dip"
+	android:orientation="horizontal"
+	android:gravity="center_vertical"
+	>	
+	<LinearLayout
+		android:orientation="vertical"
+                android:layout_marginLeft="8dip"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_toLeftOf="@+id/checkBoxEdit"
+		android:layout_alignParentLeft="true"
+		>
+		<TextView
+			android:id="@+id/titleTextEdit"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="20dip"
+			android:textColor="#FFFFFFFF"
+			android:paddingLeft="9dip"
+			android:singleLine="true"/>		
+		<TextView
+			android:id="@+id/artistTextEdit"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:paddingLeft="9dip"
+			android:textColor="#FFFFFFFF"/>			
+	</LinearLayout>
+	
+	<CheckBox
+		android:id="@+id/checkBoxEdit"
+		android:focusable="false"
+                android:layout_marginRight="8dip"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentRight="true">
+	</CheckBox>
+
+</RelativeLayout>
+<!-- add GPBLJ-171 liyang end -->

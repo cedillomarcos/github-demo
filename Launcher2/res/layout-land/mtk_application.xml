@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.android.launcher2.MTKShortcut
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:layout_width="match_parent" 
+	android:layout_height="match_parent" >
+	
+	<!--GPBLJ-175 liyang 20130508 add android:maxLines="2" android:singleLine="false"-->
+	<com.android.launcher2.BubbleTextView
+		android:id="@+id/app_icon_title" 
+		style="@style/WorkspaceIcon.Landscape"
+		android:focusable="true"
+   		android:background="@drawable/focusable_view_bg" />
+
+	<!--GPBYY-58 liyang 20130829 delete android:layout_marginTop=8dp-->
+	<TextView android:id="@+id/app_unread" 
+		style="@style/UnreadNumAppearance"
+		android:visibility="gone"
+		android:layout_marginRight="16dp"
+		android:layout_alignParentTop="true" 
+		android:layout_alignParentRight="true" />
+</com.android.launcher2.MTKShortcut>

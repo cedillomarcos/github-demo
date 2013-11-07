@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+	<dimen name="search_widget_inset">19dip</dimen>
+	<dimen name="gesture_thumbnail_inset">8dip</dimen>
+	<dimen name="gesture_thumbnail_size">64dip</dimen>
+
+	<dimen name="cell_width">80dip</dimen>
+	<dimen name="cell_height">95dip</dimen>
+	<dimen name="icon_width">63.3dip</dimen>
+	<dimen name="icon_height">63.3dip</dimen>
+	<dimen name="miniature_icon_width">12dip</dimen>
+	<dimen name="miniature_icon_height">12dip</dimen>
+	<dimen name="miniature_icon_padding_left">10dip</dimen>
+	<dimen name="miniature_icon_padding_top">10dip</dimen>
+
+	<dimen name="page_dian_height">7dip</dimen> 			<!-- 指示图标（圆点）的高度 -->
+	<dimen name="page_dian_width">7dip</dimen>				<!-- 指标图标(圆点）的宽度 -->
+	<dimen name="page_search_height">9dip</dimen>
+	<dimen name="page_search_width">9dip</dimen>
+
+	<!-- Modify GWLLSW-557 ningyaoyun 20121010(on) -->
+	<dimen name="calerdar_weak_text_top">17dip</dimen>
+	<dimen name="calerdar_weak_date_top">55dip</dimen>
+	<!-- Modify GWLLSW-317 ningyaoyun 20120924(on) -->
+	<dimen name="icon_mirro_padding_left">6dip</dimen>
+	
+	<dimen name="icon_mirro_padding_top">-6dip</dimen>
+
+	<dimen name="start_scroll_zone">20dip</dimen>
+	
+	<dimen name="minimum_start_drop_distance">2dip</dimen>
+</resources>

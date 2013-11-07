@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<group android:id="@+id/grout_main">
+	    <item android:id="@+id/main_menu"
+	                android:title="@string/go_main_menu"/>
+	    <item android:id="@+id/shortcuts_option"
+	                android:title="@string/go_shortcuts_option"/> 
+	</group>
+</menu>

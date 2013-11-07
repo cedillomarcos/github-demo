@@ -1,0 +1,7 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar" />
+    <style name="MainTheme" parent="android:Theme.NoTitleBar"> 
+        <item name="android:windowBackground">@drawable/scene_door</item>
+     </style>     
+</resources>

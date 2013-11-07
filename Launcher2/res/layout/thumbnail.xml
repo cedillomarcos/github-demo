@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <FrameLayout
+        android:id="@+id/thumbnail_layout"
+        android:layout_width="94.67dp"
+        android:layout_height="138dp"
+        android:layout_gravity="center" >
+
+        <ImageView
+            android:id="@+id/thumbnail_screenView"
+            android:layout_width="85.33dp"
+            android:layout_height="96.67dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="6.67dp"
+            android:scaleType="centerInside" 
+            android:background="@drawable/thumb_bg_normal"/>
+
+        <ImageView
+            android:id="@+id/thumbnail_deleteIconView"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/delete_icon" />
+
+    </FrameLayout>
+
+</FrameLayout>
