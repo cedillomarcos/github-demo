@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fm_main_view"
+    android:layout_width="match_parent"
+    android:layout_height="125dip"
+    android:background="@drawable/fm_bg"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <FrameLayout
+            android:id="@+id/fm_bg_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/fm_img" >
+
+            <ImageView
+                android:id="@+id/fm_off_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/fm_img_off"
+                android:gravity="center" />
+
+            <ImageView
+                android:id="@+id/fm_power_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/gp811_fm_power_btn"
+                android:gravity="center" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/goto_music_frame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true" >
+
+            <ImageView
+                android:id="@+id/goto_music_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/gp811_goto_music" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="40dip"
+            android:layout_marginRight="40dip"
+            android:layout_toLeftOf="@id/goto_music_frame"
+            android:layout_toRightOf="@id/fm_bg_container"
+            android:gravity="center_horizontal" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/fm_pre_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:src="@drawable/gp811_fm_pre" />
+
+                <ImageView
+                    android:id="@+id/fm_next_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:src="@drawable/gp811_fm_next" />
+
+                <TextView
+                    android:id="@+id/fm_chanel_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_toLeftOf="@id/fm_next_btn"
+                    android:layout_toRightOf="@id/fm_pre_btn"
+                    android:gravity="center"
+                    android:textColor="@android:color/fm_text"
+                    android:textSize="28sp"
+                    android:textStyle="bold"/>
+            </RelativeLayout>
+        </FrameLayout>
+    </RelativeLayout>
+
+</LinearLayout>

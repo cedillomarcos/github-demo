@@ -1,0 +1,49 @@
+<!-- --> 
+ <com.android.internal.policy.impl.keyguard.CoatLockScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    >
+
+
+	<LinearLayout 
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:orientation="vertical"
+	                android:layout_centerHorizontal="true"
+            android:layout_marginTop="580dp"
+	    >
+        <FrameLayout
+            android:id="@+id/unLockParent"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:layout_alignParentTop="true"
+ >
+
+            <com.android.internal.policy.impl.keyguard.AnimationView 
+                android:id="@+id/animation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:visibility="gone" />
+
+            <com.android.internal.policy.impl.keyguard.DragIcon
+                android:id="@+id/unLock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/unlockselect" />
+        </FrameLayout>
+        <ImageView
+        				android:id="@+id/gesture_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/lock_gesture" 
+            />
+    </LinearLayout>
+
+</com.android.internal.policy.impl.keyguard.CoatLockScreen>
+
+
